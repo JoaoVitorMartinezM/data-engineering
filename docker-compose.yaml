@@ -35,6 +35,8 @@ services:
       - "7077:7077"
     volumes:
       - ./delta_timetravel.py:/opt/spark/work-dir/delta_timetravel.py
+      - ./bronze_script.py:/opt/spark/work-dir/bronze_script.py
+      - ./data:/opt/spark/work-dir/data
     networks:
       - datalake-net
 
