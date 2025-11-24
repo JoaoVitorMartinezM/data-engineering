@@ -1,283 +1,945 @@
-[2025-11-21T13:02:56.392+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
-[2025-11-21T13:02:56.394+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
-[2025-11-21T13:02:56.397+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2025-11-21T13:02:56.400+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T13:02:56.409+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
-[2025-11-21T13:07:57.341+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T13:07:57.350+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
-[2025-11-21T13:12:57.971+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T13:12:57.984+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
-[2025-11-21T13:17:58.544+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T13:17:58.552+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
-[2025-11-21T13:22:59.213+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T13:22:59.224+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
-[2025-11-21T13:27:59.857+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T13:27:59.867+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
-[2025-11-21T13:33:00.519+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T13:33:00.528+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
-[2025-11-21T13:38:01.142+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T13:38:01.152+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
-[2025-11-21T13:43:01.392+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T13:43:01.395+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
-[2025-11-21T13:48:01.504+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T13:48:01.507+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
-[2025-11-21T13:53:01.635+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T13:53:01.639+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
-[2025-11-21T13:58:01.764+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T13:58:01.768+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
-[2025-11-21T14:03:01.980+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T14:03:01.985+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
-[2025-11-21T14:08:02.195+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T14:08:02.197+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
-[2025-11-21T14:12:46.973+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
-[2025-11-21T16:49:22.111+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
-[2025-11-21T16:49:22.113+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
-[2025-11-21T16:49:22.114+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2025-11-21T16:49:22.116+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T16:49:22.133+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
-[2025-11-21T16:49:22.334+0000] {manager.py:879} INFO - 
+[2025-11-24T17:33:43.592+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-11-24T17:33:43.601+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-11-24T17:33:43.604+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-24T17:33:43.606+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-11-24T17:33:43.612+0000] {manager.py:741} INFO - There are 0 files in /opt/airflow/dags
+[2025-11-24T17:37:26.821+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-11-24T18:12:11.015+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-11-24T18:12:11.016+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-11-24T18:12:11.016+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-24T18:12:11.017+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-11-24T18:12:11.071+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-11-24T18:12:11.353+0000] {manager.py:879} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
-/opt/airflow/dags/meu_primeiro_dag.py    163  0.08s             0           0
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/etl_spark_docker_real.py       164  0.08s             0           0
+/opt/airflow/dags/etl_spark_http_execution.py    167  0.05s             0           0
+/opt/airflow/dags/etl_spark_real_execution.py                           0           0
 ================================================================================
-[2025-11-21T16:49:52.480+0000] {manager.py:879} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.28s           2025-11-21T16:49:22
-================================================================================
-[2025-11-21T16:50:22.816+0000] {manager.py:879} INFO - 
+[2025-11-24T18:12:41.766+0000] {manager.py:879} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.36s           2025-11-21T16:49:53
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       179  0.02s             1           0  0.25s           2025-11-24T18:12:11
+/opt/airflow/dags/etl_spark_http_execution.py    182  0.00s             1           0  0.24s           2025-11-24T18:12:11
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.18s           2025-11-24T18:12:11
 ================================================================================
-[2025-11-21T16:50:53.358+0000] {manager.py:879} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.21s           2025-11-21T16:50:23
-================================================================================
-[2025-11-21T16:51:23.661+0000] {manager.py:879} INFO - 
+[2025-11-24T18:13:12.381+0000] {manager.py:879} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.20s           2025-11-21T16:50:53
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       194  0.02s             1           0  0.39s           2025-11-24T18:12:42
+/opt/airflow/dags/etl_spark_http_execution.py    197  0.00s             1           0  0.39s           2025-11-24T18:12:42
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.28s           2025-11-24T18:12:42
 ================================================================================
-[2025-11-21T16:51:53.985+0000] {manager.py:879} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.19s           2025-11-21T16:51:24
-================================================================================
-[2025-11-21T16:56:48.871+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
-[2025-11-21T16:56:48.874+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
-[2025-11-21T16:56:48.875+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2025-11-21T16:56:48.877+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T16:56:48.905+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
-[2025-11-21T16:56:49.120+0000] {manager.py:879} INFO - 
+[2025-11-24T18:13:42.792+0000] {manager.py:879} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
-/opt/airflow/dags/meu_primeiro_dag.py    164  0.06s             0           0
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       209  0.01s             1           0  0.17s           2025-11-24T18:13:12
+/opt/airflow/dags/etl_spark_http_execution.py    212  0.00s             1           0  0.19s           2025-11-24T18:13:12
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.17s           2025-11-24T18:13:12
 ================================================================================
-[2025-11-21T16:57:19.277+0000] {manager.py:879} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.32s           2025-11-21T16:56:49
-================================================================================
-[2025-11-21T16:57:49.682+0000] {manager.py:879} INFO - 
+[2025-11-24T18:14:13.224+0000] {manager.py:879} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.30s           2025-11-21T16:57:19
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       224  0.02s             1           0  0.20s           2025-11-24T18:13:42
+/opt/airflow/dags/etl_spark_http_execution.py    227  0.00s             1           0  0.20s           2025-11-24T18:13:42
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.17s           2025-11-24T18:13:43
 ================================================================================
-[2025-11-21T16:58:20.121+0000] {manager.py:879} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.25s           2025-11-21T16:57:50
-================================================================================
-[2025-11-21T16:58:50.513+0000] {manager.py:879} INFO - 
+[2025-11-24T18:14:43.638+0000] {manager.py:879} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.17s           2025-11-21T16:58:20
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       239  0.02s             1           0  0.18s           2025-11-24T18:14:13
+/opt/airflow/dags/etl_spark_http_execution.py    242  0.00s             1           0  0.19s           2025-11-24T18:14:13
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.17s           2025-11-24T18:14:13
 ================================================================================
-[2025-11-21T16:59:20.807+0000] {manager.py:879} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.17s           2025-11-21T16:58:50
-================================================================================
-[2025-11-21T16:59:51.110+0000] {manager.py:879} INFO - 
+[2025-11-24T18:15:14.129+0000] {manager.py:879} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.18s           2025-11-21T16:59:21
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       254  0.02s             1           0  0.19s           2025-11-24T18:14:43
+/opt/airflow/dags/etl_spark_http_execution.py    257  0.00s             1           0  0.21s           2025-11-24T18:14:43
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.18s           2025-11-24T18:14:43
 ================================================================================
-[2025-11-21T17:00:21.422+0000] {manager.py:879} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.19s           2025-11-21T16:59:51
-================================================================================
-[2025-11-21T17:00:51.737+0000] {manager.py:879} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.17s           2025-11-21T17:00:21
-================================================================================
-[2025-11-21T17:01:22.027+0000] {manager.py:879} INFO - 
+[2025-11-24T18:15:20.588+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-11-24T18:29:27.615+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-11-24T18:29:27.616+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-11-24T18:29:27.618+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-11-24T18:29:27.619+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-11-24T18:29:27.679+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-11-24T18:29:27.797+0000] {manager.py:879} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.24s           2025-11-21T17:00:52
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/etl_spark_docker_real.py       171  0.06s             0           0
+/opt/airflow/dags/etl_spark_http_execution.py    174  0.03s             0           0
+/opt/airflow/dags/etl_spark_real_execution.py                           0           0
 ================================================================================
-[2025-11-21T17:01:49.385+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T17:01:49.421+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
-[2025-11-21T17:01:52.566+0000] {manager.py:879} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py    220  0.00s             1           0  0.19s           2025-11-21T17:01:22
-================================================================================
-[2025-11-21T17:41:16.446+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
-[2025-11-21T17:41:16.448+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
-[2025-11-21T17:41:16.450+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2025-11-21T17:41:16.452+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T17:41:16.488+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
-[2025-11-21T17:41:16.768+0000] {manager.py:879} INFO - 
+[2025-11-24T18:29:58.138+0000] {manager.py:879} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
-/opt/airflow/dags/meu_primeiro_dag.py    163  0.09s             0           0
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       194  0.02s             1           0  0.14s           2025-11-24T18:29:27
+/opt/airflow/dags/etl_spark_http_execution.py    197  0.00s             1           0  0.14s           2025-11-24T18:29:27
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.13s           2025-11-24T18:29:28
 ================================================================================
-[2025-11-21T17:41:46.983+0000] {manager.py:879} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.42s           2025-11-21T17:41:17
-================================================================================
-[2025-11-21T17:42:17.249+0000] {manager.py:879} INFO - 
+[2025-11-24T18:30:28.672+0000] {manager.py:879} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.71s           2025-11-21T17:41:48
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       209  0.01s             1           0  0.33s           2025-11-24T18:29:58
+/opt/airflow/dags/etl_spark_http_execution.py    212  0.00s             1           0  0.32s           2025-11-24T18:29:58
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.21s           2025-11-24T18:29:58
 ================================================================================
-[2025-11-21T17:42:47.555+0000] {manager.py:879} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.38s           2025-11-21T17:42:18
-================================================================================
-[2025-11-21T17:43:17.818+0000] {manager.py:879} INFO - 
+[2025-11-24T18:30:59.102+0000] {manager.py:879} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.82s           2025-11-21T17:42:49
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       232  0.08s             1           0  0.12s           2025-11-24T18:30:28
+/opt/airflow/dags/etl_spark_http_execution.py    235  0.01s             1           0  0.14s           2025-11-24T18:30:28
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:30:28
 ================================================================================
-[2025-11-21T17:43:48.218+0000] {manager.py:879} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.42s           2025-11-21T17:43:20
-================================================================================
-[2025-11-21T17:44:18.403+0000] {manager.py:879} INFO - 
+[2025-11-24T18:31:29.487+0000] {manager.py:879} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.69s           2025-11-21T17:43:51
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       274  0.02s             1           0  0.23s           2025-11-24T18:30:59
+/opt/airflow/dags/etl_spark_http_execution.py    277  0.01s             1           0  0.18s           2025-11-24T18:30:59
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.14s           2025-11-24T18:30:59
 ================================================================================
-[2025-11-21T17:44:48.911+0000] {manager.py:879} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.40s           2025-11-21T17:44:21
-================================================================================
-[2025-11-21T17:45:19.231+0000] {manager.py:879} INFO - 
+[2025-11-24T18:31:59.880+0000] {manager.py:879} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.43s           2025-11-21T17:44:52
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       334  0.01s             1           0  0.17s           2025-11-24T18:31:29
+/opt/airflow/dags/etl_spark_http_execution.py    337  0.00s             1           0  0.18s           2025-11-24T18:31:29
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.17s           2025-11-24T18:31:29
 ================================================================================
-[2025-11-21T17:45:49.828+0000] {manager.py:879} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.39s           2025-11-21T17:45:23
-================================================================================
-[2025-11-21T17:46:16.813+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
-[2025-11-21T17:46:16.846+0000] {manager.py:741} INFO - There are 1 files in /opt/airflow/dags
-[2025-11-21T17:46:19.930+0000] {manager.py:879} INFO - 
+[2025-11-24T18:32:30.222+0000] {manager.py:879} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.39s           2025-11-21T17:45:53
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       356  0.02s             1           0  0.12s           2025-11-24T18:31:59
+/opt/airflow/dags/etl_spark_http_execution.py    359  0.00s             1           0  0.13s           2025-11-24T18:32:00
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.18s           2025-11-24T18:32:00
 ================================================================================
-[2025-11-21T17:46:50.160+0000] {manager.py:879} INFO - 
+[2025-11-24T18:33:00.571+0000] {manager.py:879} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                              PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/meu_primeiro_dag.py                           1           0  0.43s           2025-11-21T17:46:24
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       378  0.01s             1           0  0.12s           2025-11-24T18:32:30
+/opt/airflow/dags/etl_spark_http_execution.py    381  0.00s             1           0  0.14s           2025-11-24T18:32:30
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:32:30
+================================================================================
+[2025-11-24T18:33:30.920+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       400  0.01s             1           0  0.12s           2025-11-24T18:33:00
+/opt/airflow/dags/etl_spark_http_execution.py    403  0.00s             1           0  0.14s           2025-11-24T18:33:00
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:33:00
+================================================================================
+[2025-11-24T18:34:01.276+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       451  0.01s             1           0  0.13s           2025-11-24T18:33:31
+/opt/airflow/dags/etl_spark_http_execution.py    454  0.00s             1           0  0.14s           2025-11-24T18:33:31
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:33:31
+================================================================================
+[2025-11-24T18:34:27.670+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-11-24T18:34:27.700+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-11-24T18:34:31.637+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       473  0.02s             1           0  0.12s           2025-11-24T18:34:01
+/opt/airflow/dags/etl_spark_http_execution.py    476  0.00s             1           0  0.14s           2025-11-24T18:34:01
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.13s           2025-11-24T18:34:01
+================================================================================
+[2025-11-24T18:35:01.985+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       495  0.02s             1           0  0.13s           2025-11-24T18:34:31
+/opt/airflow/dags/etl_spark_http_execution.py    498  0.01s             1           0  0.14s           2025-11-24T18:34:31
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:34:31
+================================================================================
+[2025-11-24T18:35:32.329+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       517  0.02s             1           0  0.12s           2025-11-24T18:35:02
+/opt/airflow/dags/etl_spark_http_execution.py    520  0.00s             1           0  0.14s           2025-11-24T18:35:02
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:35:02
+================================================================================
+[2025-11-24T18:36:02.676+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       539  0.02s             1           0  0.12s           2025-11-24T18:35:32
+/opt/airflow/dags/etl_spark_http_execution.py    542  0.00s             1           0  0.14s           2025-11-24T18:35:32
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:35:32
+================================================================================
+[2025-11-24T18:36:33.030+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       561  0.01s             1           0  0.12s           2025-11-24T18:36:02
+/opt/airflow/dags/etl_spark_http_execution.py    564  0.00s             1           0  0.13s           2025-11-24T18:36:02
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:36:02
+================================================================================
+[2025-11-24T18:37:03.396+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       583  0.01s             1           0  0.12s           2025-11-24T18:36:33
+/opt/airflow/dags/etl_spark_http_execution.py    586  0.00s             1           0  0.14s           2025-11-24T18:36:33
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:36:33
+================================================================================
+[2025-11-24T18:37:33.755+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       605  0.01s             1           0  0.13s           2025-11-24T18:37:03
+/opt/airflow/dags/etl_spark_http_execution.py    608  0.00s             1           0  0.13s           2025-11-24T18:37:03
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:37:03
+================================================================================
+[2025-11-24T18:38:04.108+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       640  0.01s             1           0  0.13s           2025-11-24T18:37:33
+/opt/airflow/dags/etl_spark_http_execution.py    643  0.00s             1           0  0.15s           2025-11-24T18:37:33
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:37:33
+================================================================================
+[2025-11-24T18:38:34.466+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       662  0.02s             1           0  0.12s           2025-11-24T18:38:04
+/opt/airflow/dags/etl_spark_http_execution.py    665  0.00s             1           0  0.13s           2025-11-24T18:38:04
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:38:04
+================================================================================
+[2025-11-24T18:39:04.818+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       684  0.02s             1           0  0.13s           2025-11-24T18:38:34
+/opt/airflow/dags/etl_spark_http_execution.py    687  0.00s             1           0  0.13s           2025-11-24T18:38:34
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:38:34
+================================================================================
+[2025-11-24T18:39:28.135+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-11-24T18:39:28.166+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-11-24T18:39:35.240+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       699  0.01s             1           0  0.15s           2025-11-24T18:39:04
+/opt/airflow/dags/etl_spark_http_execution.py    702  0.00s             1           0  0.17s           2025-11-24T18:39:04
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.21s           2025-11-24T18:39:05
+================================================================================
+[2025-11-24T18:40:05.580+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       734  0.02s             1           0  0.12s           2025-11-24T18:39:35
+/opt/airflow/dags/etl_spark_http_execution.py    737  0.00s             1           0  0.13s           2025-11-24T18:39:35
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.13s           2025-11-24T18:39:35
+================================================================================
+[2025-11-24T18:40:35.934+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       756  0.02s             1           0  0.12s           2025-11-24T18:40:05
+/opt/airflow/dags/etl_spark_http_execution.py    759  0.01s             1           0  0.13s           2025-11-24T18:40:05
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:40:05
+================================================================================
+[2025-11-24T18:41:06.325+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       780  0.02s             1           0  0.16s           2025-11-24T18:40:36
+/opt/airflow/dags/etl_spark_http_execution.py    783  0.00s             1           0  0.17s           2025-11-24T18:40:36
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.13s           2025-11-24T18:40:36
+================================================================================
+[2025-11-24T18:41:36.710+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       802  0.02s             1           0  0.14s           2025-11-24T18:41:06
+/opt/airflow/dags/etl_spark_http_execution.py    805  0.00s             1           0  0.16s           2025-11-24T18:41:06
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.17s           2025-11-24T18:41:06
+================================================================================
+[2025-11-24T18:42:07.066+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       827  0.01s             1           0  0.12s           2025-11-24T18:41:36
+/opt/airflow/dags/etl_spark_http_execution.py    830  0.00s             1           0  0.14s           2025-11-24T18:41:36
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:41:36
+================================================================================
+[2025-11-24T18:42:37.422+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       850  0.01s             1           0  0.12s           2025-11-24T18:42:07
+/opt/airflow/dags/etl_spark_http_execution.py    853  0.00s             1           0  0.14s           2025-11-24T18:42:07
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:42:07
+================================================================================
+[2025-11-24T18:43:07.788+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       872  0.01s             1           0  0.13s           2025-11-24T18:42:37
+/opt/airflow/dags/etl_spark_http_execution.py    875  0.00s             1           0  0.15s           2025-11-24T18:42:37
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:42:37
+================================================================================
+[2025-11-24T18:43:38.150+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       894  0.01s             1           0  0.13s           2025-11-24T18:43:07
+/opt/airflow/dags/etl_spark_http_execution.py    897  0.00s             1           0  0.14s           2025-11-24T18:43:07
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:43:08
+================================================================================
+[2025-11-24T18:44:08.496+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       918  0.02s             1           0  0.12s           2025-11-24T18:43:38
+/opt/airflow/dags/etl_spark_http_execution.py    921  0.01s             1           0  0.13s           2025-11-24T18:43:38
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:43:38
+================================================================================
+[2025-11-24T18:44:28.784+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-11-24T18:44:28.817+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-11-24T18:44:38.916+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       940  0.01s             1           0  0.14s           2025-11-24T18:44:08
+/opt/airflow/dags/etl_spark_http_execution.py    943  0.00s             1           0  0.16s           2025-11-24T18:44:08
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.14s           2025-11-24T18:44:08
+================================================================================
+[2025-11-24T18:45:09.265+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       962  0.01s             1           0  0.13s           2025-11-24T18:44:39
+/opt/airflow/dags/etl_spark_http_execution.py    965  0.00s             1           0  0.14s           2025-11-24T18:44:39
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:44:39
+================================================================================
+[2025-11-24T18:45:39.621+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py       984  0.02s             1           0  0.12s           2025-11-24T18:45:09
+/opt/airflow/dags/etl_spark_http_execution.py    987  0.00s             1           0  0.14s           2025-11-24T18:45:09
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.13s           2025-11-24T18:45:09
+================================================================================
+[2025-11-24T18:46:09.975+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1007  0.02s             1           0  0.13s           2025-11-24T18:45:39
+/opt/airflow/dags/etl_spark_http_execution.py   1010  0.00s             1           0  0.15s           2025-11-24T18:45:39
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:45:39
+================================================================================
+[2025-11-24T18:46:40.333+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1029  0.02s             1           0  0.12s           2025-11-24T18:46:10
+/opt/airflow/dags/etl_spark_http_execution.py   1032  0.00s             1           0  0.14s           2025-11-24T18:46:10
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:46:10
+================================================================================
+[2025-11-24T18:47:10.715+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1051  0.01s             1           0  0.14s           2025-11-24T18:46:40
+/opt/airflow/dags/etl_spark_http_execution.py   1054  0.00s             1           0  0.16s           2025-11-24T18:46:40
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.14s           2025-11-24T18:46:40
+================================================================================
+[2025-11-24T18:47:41.079+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1073  0.02s             1           0  0.11s           2025-11-24T18:47:10
+/opt/airflow/dags/etl_spark_http_execution.py   1076  0.00s             1           0  0.13s           2025-11-24T18:47:10
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.12s           2025-11-24T18:47:10
+================================================================================
+[2025-11-24T18:48:11.448+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1088  0.02s             1           0  0.14s           2025-11-24T18:47:41
+/opt/airflow/dags/etl_spark_http_execution.py   1091  0.00s             1           0  0.15s           2025-11-24T18:47:41
+/opt/airflow/dags/etl_spark_real_execution.py                           1           0  0.13s           2025-11-24T18:47:41
+================================================================================
+[2025-11-24T18:48:41.910+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1115  0.02s             1           0  0.14s           2025-11-24T18:48:11
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.22s           2025-11-24T18:48:19
+/opt/airflow/dags/etl_spark_real_execution.py   1118  0.00s             1           0  0.12s           2025-11-24T18:48:11
+================================================================================
+[2025-11-24T18:49:12.291+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1137  0.02s             1           0  0.15s           2025-11-24T18:48:42
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.14s           2025-11-24T18:48:50
+/opt/airflow/dags/etl_spark_real_execution.py   1140  0.00s             1           0  0.15s           2025-11-24T18:48:42
+================================================================================
+[2025-11-24T18:49:29.518+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-11-24T18:49:29.546+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-11-24T18:49:42.669+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1159  0.01s             1           0  0.12s           2025-11-24T18:49:12
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.12s           2025-11-24T18:49:20
+/opt/airflow/dags/etl_spark_real_execution.py   1162  0.00s             1           0  0.13s           2025-11-24T18:49:12
+================================================================================
+[2025-11-24T18:50:13.006+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1181  0.01s             1           0  0.11s           2025-11-24T18:49:42
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.12s           2025-11-24T18:49:50
+/opt/airflow/dags/etl_spark_real_execution.py   1184  0.00s             1           0  0.13s           2025-11-24T18:49:42
+================================================================================
+[2025-11-24T18:50:43.357+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1203  0.01s             1           0  0.13s           2025-11-24T18:50:13
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.15s           2025-11-24T18:50:21
+/opt/airflow/dags/etl_spark_real_execution.py   1206  0.00s             1           0  0.13s           2025-11-24T18:50:13
+================================================================================
+[2025-11-24T18:51:13.707+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1225  0.01s             1           0  0.13s           2025-11-24T18:50:43
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.13s           2025-11-24T18:50:51
+/opt/airflow/dags/etl_spark_real_execution.py   1228  0.00s             1           0  0.15s           2025-11-24T18:50:43
+================================================================================
+[2025-11-24T18:51:44.054+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1287  0.01s             1           0  0.12s           2025-11-24T18:51:13
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.13s           2025-11-24T18:51:22
+/opt/airflow/dags/etl_spark_real_execution.py   1290  0.00s             1           0  0.13s           2025-11-24T18:51:13
+================================================================================
+[2025-11-24T18:52:14.396+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1310  0.01s             1           0  0.12s           2025-11-24T18:51:44
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.12s           2025-11-24T18:51:52
+/opt/airflow/dags/etl_spark_real_execution.py   1313  0.00s             1           0  0.13s           2025-11-24T18:51:44
+================================================================================
+[2025-11-24T18:52:44.734+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1332  0.01s             1           0  0.12s           2025-11-24T18:52:14
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.13s           2025-11-24T18:52:22
+/opt/airflow/dags/etl_spark_real_execution.py   1335  0.00s             1           0  0.13s           2025-11-24T18:52:14
+================================================================================
+[2025-11-24T18:53:15.085+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1354  0.01s             1           0  0.13s           2025-11-24T18:52:44
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.12s           2025-11-24T18:52:53
+/opt/airflow/dags/etl_spark_real_execution.py   1357  0.00s             1           0  0.14s           2025-11-24T18:52:44
+================================================================================
+[2025-11-24T18:53:45.434+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1378  0.01s             1           0  0.13s           2025-11-24T18:53:15
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.13s           2025-11-24T18:53:23
+/opt/airflow/dags/etl_spark_real_execution.py   1381  0.00s             1           0  0.14s           2025-11-24T18:53:15
+================================================================================
+[2025-11-24T18:54:15.783+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1400  0.01s             1           0  0.13s           2025-11-24T18:53:45
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.14s           2025-11-24T18:53:53
+/opt/airflow/dags/etl_spark_real_execution.py   1403  0.00s             1           0  0.15s           2025-11-24T18:53:45
+================================================================================
+[2025-11-24T18:54:29.996+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-11-24T18:54:30.023+0000] {manager.py:741} INFO - There are 3 files in /opt/airflow/dags
+[2025-11-24T18:54:46.158+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1422  0.01s             1           0  0.12s           2025-11-24T18:54:15
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.13s           2025-11-24T18:54:24
+/opt/airflow/dags/etl_spark_real_execution.py   1425  0.00s             1           0  0.13s           2025-11-24T18:54:15
+================================================================================
+[2025-11-24T18:55:16.524+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1444  0.01s             1           0  0.14s           2025-11-24T18:54:46
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.13s           2025-11-24T18:54:54
+/opt/airflow/dags/etl_spark_real_execution.py   1447  0.00s             1           0  0.15s           2025-11-24T18:54:46
+================================================================================
+[2025-11-24T18:55:46.908+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1466  0.02s             1           0  0.13s           2025-11-24T18:55:16
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.14s           2025-11-24T18:55:24
+/opt/airflow/dags/etl_spark_real_execution.py   1469  0.01s             1           0  0.14s           2025-11-24T18:55:16
+================================================================================
+[2025-11-24T18:56:17.212+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1489  0.02s             1           0  0.28s           2025-11-24T18:55:47
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.14s           2025-11-24T18:55:55
+/opt/airflow/dags/etl_spark_real_execution.py   1492  0.01s             1           0  0.29s           2025-11-24T18:55:47
+================================================================================
+[2025-11-24T18:56:47.653+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1512  0.02s             1           0  0.14s           2025-11-24T18:56:17
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.14s           2025-11-24T18:56:25
+/opt/airflow/dags/etl_spark_real_execution.py   1515  0.00s             1           0  0.15s           2025-11-24T18:56:17
+================================================================================
+[2025-11-24T18:57:18.010+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1527  0.01s             1           0  0.14s           2025-11-24T18:56:47
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.13s           2025-11-24T18:56:55
+/opt/airflow/dags/etl_spark_real_execution.py   1530  0.00s             1           0  0.15s           2025-11-24T18:56:47
+================================================================================
+[2025-11-24T18:57:48.477+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1549  0.01s             1           0  0.13s           2025-11-24T18:57:18
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.16s           2025-11-24T18:57:26
+/opt/airflow/dags/etl_spark_real_execution.py   1552  0.00s             1           0  0.14s           2025-11-24T18:57:18
+================================================================================
+[2025-11-24T18:58:18.845+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1571  0.01s             1           0  0.14s           2025-11-24T18:57:48
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.15s           2025-11-24T18:57:56
+/opt/airflow/dags/etl_spark_real_execution.py   1574  0.00s             1           0  0.16s           2025-11-24T18:57:48
+================================================================================
+[2025-11-24T18:58:49.201+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1593  0.01s             1           0  0.12s           2025-11-24T18:58:18
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.17s           2025-11-24T18:58:27
+/opt/airflow/dags/etl_spark_real_execution.py   1596  0.00s             1           0  0.14s           2025-11-24T18:58:18
+================================================================================
+[2025-11-24T18:59:19.564+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1615  0.02s             1           0  0.13s           2025-11-24T18:58:49
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.14s           2025-11-24T18:58:57
+/opt/airflow/dags/etl_spark_real_execution.py   1618  0.00s             1           0  0.14s           2025-11-24T18:58:49
+================================================================================
+[2025-11-24T18:59:30.760+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-11-24T18:59:30.808+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-11-24T18:59:50.039+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1642  0.01s             1           0  0.12s           2025-11-24T18:59:19
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.12s           2025-11-24T18:59:27
+/opt/airflow/dags/etl_spark_real_execution.py   1645  0.00s             1           0  0.13s           2025-11-24T18:59:19
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.23s           2025-11-24T18:59:31
+================================================================================
+[2025-11-24T19:00:20.532+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1669  0.01s             1           0  0.12s           2025-11-24T18:59:50
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.13s           2025-11-24T18:59:58
+/opt/airflow/dags/etl_spark_real_execution.py   1672  0.00s             1           0  0.13s           2025-11-24T18:59:50
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.15s           2025-11-24T19:00:01
+================================================================================
+[2025-11-24T19:00:51.013+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1696  0.02s             1           0  0.12s           2025-11-24T19:00:20
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.12s           2025-11-24T19:00:28
+/opt/airflow/dags/etl_spark_real_execution.py   1699  0.00s             1           0  0.13s           2025-11-24T19:00:20
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.12s           2025-11-24T19:00:31
+================================================================================
+[2025-11-24T19:01:21.535+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1723  0.03s             1           0  0.12s           2025-11-24T19:00:51
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.14s           2025-11-24T19:00:59
+/opt/airflow/dags/etl_spark_real_execution.py   1726  0.01s             1           0  0.13s           2025-11-24T19:00:51
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.15s           2025-11-24T19:01:02
+================================================================================
+[2025-11-24T19:01:51.997+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1750  0.01s             1           0  0.19s           2025-11-24T19:01:21
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.22s           2025-11-24T19:01:30
+/opt/airflow/dags/etl_spark_real_execution.py   1753  0.00s             1           0  0.21s           2025-11-24T19:01:21
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.13s           2025-11-24T19:01:32
+================================================================================
+[2025-11-24T19:02:22.496+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1777  0.01s             1           0  0.12s           2025-11-24T19:01:52
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.14s           2025-11-24T19:02:00
+/opt/airflow/dags/etl_spark_real_execution.py   1780  0.00s             1           0  0.14s           2025-11-24T19:01:52
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.13s           2025-11-24T19:02:03
+================================================================================
+[2025-11-24T19:02:52.992+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1804  0.01s             1           0  0.13s           2025-11-24T19:02:22
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.12s           2025-11-24T19:02:30
+/opt/airflow/dags/etl_spark_real_execution.py   1807  0.00s             1           0  0.14s           2025-11-24T19:02:22
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.13s           2025-11-24T19:02:33
+================================================================================
+[2025-11-24T19:03:23.542+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1863  0.01s             1           0  0.12s           2025-11-24T19:02:53
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.16s           2025-11-24T19:03:01
+/opt/airflow/dags/etl_spark_real_execution.py   1866  0.00s             1           0  0.13s           2025-11-24T19:02:53
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.20s           2025-11-24T19:03:04
+================================================================================
+[2025-11-24T19:03:54.122+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1913  0.01s             1           0  0.12s           2025-11-24T19:03:23
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.18s           2025-11-24T19:03:31
+/opt/airflow/dags/etl_spark_real_execution.py   1916  0.00s             1           0  0.14s           2025-11-24T19:03:23
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.17s           2025-11-24T19:03:34
+================================================================================
+[2025-11-24T19:04:24.700+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      1969  0.03s             1           0  0.12s           2025-11-24T19:03:54
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.16s           2025-11-24T19:04:02
+/opt/airflow/dags/etl_spark_real_execution.py   1972  0.01s             1           0  0.14s           2025-11-24T19:03:54
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.15s           2025-11-24T19:04:05
+================================================================================
+[2025-11-24T19:04:30.949+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-11-24T19:04:30.990+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-11-24T19:04:55.404+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      2034  0.02s             1           0  0.23s           2025-11-24T19:04:24
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.16s           2025-11-24T19:04:33
+/opt/airflow/dags/etl_spark_real_execution.py   2037  0.00s             1           0  0.23s           2025-11-24T19:04:24
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.16s           2025-11-24T19:04:36
+================================================================================
+[2025-11-24T19:05:25.977+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      2076  0.01s             1           0  0.14s           2025-11-24T19:04:55
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.15s           2025-11-24T19:05:03
+/opt/airflow/dags/etl_spark_real_execution.py   2079  0.00s             1           0  0.15s           2025-11-24T19:04:55
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.15s           2025-11-24T19:05:06
+================================================================================
+[2025-11-24T19:05:56.537+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      2135  0.01s             1           0  0.12s           2025-11-24T19:05:26
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.15s           2025-11-24T19:05:34
+/opt/airflow/dags/etl_spark_real_execution.py   2138  0.00s             1           0  0.13s           2025-11-24T19:05:26
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.18s           2025-11-24T19:05:37
+================================================================================
+[2025-11-24T19:06:27.022+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      2167  0.02s             1           0  0.12s           2025-11-24T19:05:56
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.13s           2025-11-24T19:06:04
+/opt/airflow/dags/etl_spark_real_execution.py   2170  0.00s             1           0  0.13s           2025-11-24T19:05:56
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.13s           2025-11-24T19:06:07
+================================================================================
+[2025-11-24T19:06:57.503+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      2194  0.01s             1           0  0.12s           2025-11-24T19:06:27
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.13s           2025-11-24T19:06:35
+/opt/airflow/dags/etl_spark_real_execution.py   2197  0.00s             1           0  0.13s           2025-11-24T19:06:27
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.13s           2025-11-24T19:06:38
+================================================================================
+[2025-11-24T19:07:28.006+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      2221  0.01s             1           0  0.13s           2025-11-24T19:06:57
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.12s           2025-11-24T19:07:05
+/opt/airflow/dags/etl_spark_real_execution.py   2224  0.00s             1           0  0.14s           2025-11-24T19:06:57
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.12s           2025-11-24T19:07:08
+================================================================================
+[2025-11-24T19:07:58.501+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      2248  0.01s             1           0  0.12s           2025-11-24T19:07:28
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.14s           2025-11-24T19:07:36
+/opt/airflow/dags/etl_spark_real_execution.py   2251  0.00s             1           0  0.13s           2025-11-24T19:07:28
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.12s           2025-11-24T19:07:39
+================================================================================
+[2025-11-24T19:08:29.018+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      2275  0.02s             1           0  0.12s           2025-11-24T19:07:58
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.12s           2025-11-24T19:08:06
+/opt/airflow/dags/etl_spark_real_execution.py   2278  0.00s             1           0  0.13s           2025-11-24T19:07:58
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.14s           2025-11-24T19:08:09
+================================================================================
+[2025-11-24T19:08:59.554+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      2302  0.02s             1           0  0.13s           2025-11-24T19:08:29
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.15s           2025-11-24T19:08:37
+/opt/airflow/dags/etl_spark_real_execution.py   2305  0.01s             1           0  0.14s           2025-11-24T19:08:29
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.16s           2025-11-24T19:08:40
+================================================================================
+[2025-11-24T19:09:29.960+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      2330  0.01s             1           0  0.15s           2025-11-24T19:08:59
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.17s           2025-11-24T19:09:07
+/opt/airflow/dags/etl_spark_real_execution.py   2333  0.00s             1           0  0.15s           2025-11-24T19:08:59
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.13s           2025-11-24T19:09:10
+================================================================================
+[2025-11-24T19:09:31.077+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-11-24T19:09:31.113+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-11-24T19:10:00.486+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      2358  0.02s             1           0  0.12s           2025-11-24T19:09:30
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.12s           2025-11-24T19:09:38
+/opt/airflow/dags/etl_spark_real_execution.py   2361  0.00s             1           0  0.13s           2025-11-24T19:09:30
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.13s           2025-11-24T19:09:41
+================================================================================
+[2025-11-24T19:10:30.957+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/etl_spark_docker_real.py      2385  0.01s             1           0  0.12s           2025-11-24T19:10:00
+/opt/airflow/dags/etl_spark_http_execution.py                           1           0  0.13s           2025-11-24T19:10:08
+/opt/airflow/dags/etl_spark_real_execution.py   2388  0.00s             1           0  0.13s           2025-11-24T19:10:00
+/opt/airflow/dags/etl_spark_working_dag.py                              1           0  0.13s           2025-11-24T19:10:11
 ================================================================================

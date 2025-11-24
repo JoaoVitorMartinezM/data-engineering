@@ -34,8 +34,7 @@ services:
       - "8080:8080"
       - "7077:7077"
     volumes:
-      - ./delta_timetravel.py:/opt/spark/work-dir/delta_timetravel.py
-      - ./bronze_script.py:/opt/spark/work-dir/bronze_script.py
+      - ./spark:/opt/spark/work-dir/
       - ./data:/opt/spark/work-dir/data
     networks:
       - datalake-net
@@ -70,24 +69,31 @@ services:
       POSTGRES_USER: airflow_user
       POSTGRES_PASSWORD: airflow_pass
       POSTGRES_DB: airflow_db
+      # Previne problemas de encoding
+      POSTGRES_INITDB_ARGS: "-E UTF8"
+      # Configurações para melhor estabilidade
+      POSTGRES_HOST_AUTH_METHOD: md5
     volumes:
-      - ./datalake/postgres:/var/lib/postgresql/data # Volume para persistir os metadados do Airflow
+      # Usando volume nomeado para evitar problemas de permissão e corrupção
+      - postgres-db-volume:/var/lib/postgresql/data
     ports:
       - "5432:5432"
     networks:
       - datalake-net
     healthcheck:
-      test: ["CMD", "pg_isready", "-U", "postgres"]
-      interval: 5s
+      test: ["CMD-SHELL", "pg_isready -U airflow_user -d airflow_db"]
+      interval: 10s
       timeout: 5s
       retries: 5
+      start_period: 10s
 
   airflow-webserver:
     image: apache/airflow:2.8.1-python3.11 # Versão estável do Airflow
     container_name: airflow_webserver
+    restart: unless-stopped
     depends_on:
       postgres:
-        condition: service_healthy # Espera o Postgres estar pronto
+        condition: service_healthy
       airflow-initdb:
         condition: service_completed_successfully
     environment:
@@ -95,19 +101,34 @@ services:
       # String de conexão com o Postgres (usa o nome do serviço 'postgres')
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow_user:airflow_pass@postgres:5432/airflow_db
       AIRFLOW__WEBSERVER__SECRET_KEY: 'camamesagatogalatico' # MUDAR em produção!
+      AIRFLOW__WEBSERVER__BASE_URL: http://localhost:8082
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__LOGGING__REMOTE_LOGGING: False
+      AIRFLOW__LOGGING__REMOTE_BASE_LOG_FOLDER: ''
+      # Previne problemas de conexão com banco
+      AIRFLOW__DATABASE__SQL_ALCHEMY_POOL_SIZE: 5
+      AIRFLOW__DATABASE__SQL_ALCHEMY_POOL_RECYCLE: 3600
     volumes:
       - ./airflow/dags:/opt/airflow/dags # Onde os DAGs estarão
       - ./airflow/logs:/opt/airflow/logs
       - ./airflow/plugins:/opt/airflow/plugins
+      - /var/run/docker.sock:/var/run/docker.sock # Acesso ao Docker socket para execução real
     ports:
       - "8082:8080"
     command: webserver
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
     networks:
       - datalake-net
 
   airflow-scheduler:
     image: apache/airflow:2.8.1-python3.11
     container_name: airflow_scheduler
+    restart: unless-stopped
     depends_on:
       postgres:
         condition: service_healthy
@@ -116,11 +137,27 @@ services:
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow_user:airflow_pass@postgres:5432/airflow_db
+      AIRFLOW__WEBSERVER__BASE_URL: http://localhost:8082
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__LOGGING__REMOTE_LOGGING: False
+      AIRFLOW__LOGGING__REMOTE_BASE_LOG_FOLDER: ''
+      # Previne problemas de conexão com banco
+      AIRFLOW__DATABASE__SQL_ALCHEMY_POOL_SIZE: 5
+      AIRFLOW__DATABASE__SQL_ALCHEMY_POOL_RECYCLE: 3600
+      # Configurações de scheduler
+      AIRFLOW__SCHEDULER__MIN_FILE_PROCESS_INTERVAL: 30
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
       - ./airflow/plugins:/opt/airflow/plugins
+      - /var/run/docker.sock:/var/run/docker.sock # Acesso ao Docker socket para execução real
     command: scheduler
+    healthcheck:
+      test: ["CMD-SHELL", "airflow jobs check --job-type SchedulerJob --hostname \"$${HOSTNAME}\""]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
     networks:
       - datalake-net
 
@@ -134,11 +171,44 @@ services:
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow_user:airflow_pass@postgres:5432/airflow_db
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      # Previne problemas de migração
+      AIRFLOW__DATABASE__SQL_ALCHEMY_POOL_ENABLED: "False"
     volumes:
       - ./airflow/dags:/opt/airflow/dags
       - ./airflow/logs:/opt/airflow/logs
       - ./airflow/plugins:/opt/airflow/plugins
-    command: bash -c "airflow db migrate && airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com || true"
+    command: >
+      bash -c "
+        set -e
+        echo '🔍 Aguardando PostgreSQL estar completamente pronto...'
+        sleep 10
+        
+        echo '🔍 Testando conectividade com o banco...'
+        until airflow db check 2>&1 | grep -q 'Connection successful'; do
+          echo '⏳ Aguardando banco estar acessível...'
+          sleep 2
+        done
+        
+        echo '✅ Conexão com o banco estabelecida!'
+        echo '🔍 Verificando se o banco precisa de migração...'
+        
+        # Força a migração sempre para garantir que está atualizado
+        echo '🔄 Executando migração do banco (idempotente)...'
+        airflow db migrate || {
+          echo '⚠️  Erro na migração! Resetando banco...'
+          airflow db reset --yes
+          echo '🔄 Migrando novamente após reset...'
+          airflow db migrate
+        }
+        
+        echo '✅ Banco de dados migrado com sucesso!'
+        
+        echo '👤 Criando usuário admin...'
+        airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com 2>/dev/null || echo '✅ Usuário admin já existe.'
+        
+        echo '🎉 Inicialização completa! Banco pronto para uso.'
+      "
     networks:
       - datalake-net
 
@@ -708,5 +778,6 @@ volumes:
   ingestion-volume-dags:
   ingestion-volume-tmp:
   es-data:
+  postgres-db-volume:  # Volume nomeado para persistência do PostgreSQL do Airflow
 networks:
   datalake-net:

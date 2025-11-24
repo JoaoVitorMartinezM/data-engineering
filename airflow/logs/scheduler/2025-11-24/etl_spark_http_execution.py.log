@@ -1,0 +1,632 @@
+[2025-11-24T18:12:11.326+0000] {processor.py:161} INFO - Started process (PID=167) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:12:11.327+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:12:11.328+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:12:11.328+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:12:11.359+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:12:11.440+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:12:11.440+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:12:11.484+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:12:11.483+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:12:11.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.209 seconds
+[2025-11-24T18:12:41.776+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:12:41.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:12:41.778+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:12:41.778+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:12:41.802+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:12:42.071+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:12:42.071+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:12:42.102+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:12:42.102+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:12:42.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.368 seconds
+[2025-11-24T18:13:12.394+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:13:12.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:13:12.396+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:13:12.396+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:13:12.420+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:13:12.481+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:13:12.480+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:13:12.517+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:13:12.517+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:13:12.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.164 seconds
+[2025-11-24T18:13:42.806+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:13:42.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:13:42.808+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:13:42.808+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:13:42.833+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:13:42.899+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:13:42.899+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:13:42.937+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:13:42.936+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:13:42.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.177 seconds
+[2025-11-24T18:14:13.236+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:14:13.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:14:13.238+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:14:13.238+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:14:13.259+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:14:13.323+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:14:13.323+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:14:13.364+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:14:13.364+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:14:13.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.170 seconds
+[2025-11-24T18:14:43.650+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:14:43.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:14:43.652+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:14:43.651+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:14:43.679+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:14:43.748+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:14:43.748+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:14:43.787+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:14:43.786+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:14:43.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.180 seconds
+[2025-11-24T18:15:14.139+0000] {processor.py:161} INFO - Started process (PID=257) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:15:14.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:15:14.141+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:15:14.141+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:15:14.163+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:15:14.226+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:15:14.226+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:15:14.263+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:15:14.263+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:15:14.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.167 seconds
+[2025-11-24T18:29:27.778+0000] {processor.py:161} INFO - Started process (PID=174) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:29:27.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:29:27.781+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:29:27.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:29:27.803+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:29:27.835+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:29:27.834+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:29:27.863+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:29:27.863+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:29:27.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.116 seconds
+[2025-11-24T18:29:58.152+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:29:58.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:29:58.154+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:29:58.154+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:29:58.179+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:29:58.392+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:29:58.392+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:29:58.420+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:29:58.420+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:29:58.445+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.298 seconds
+[2025-11-24T18:30:28.683+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:30:28.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:30:28.685+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:30:28.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:30:28.709+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:30:28.743+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:30:28.742+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:30:28.777+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:30:28.777+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:30:28.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.122 seconds
+[2025-11-24T18:30:59.122+0000] {processor.py:161} INFO - Started process (PID=235) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:30:59.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:30:59.125+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:30:59.124+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:30:59.167+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:30:59.200+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:30:59.200+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:30:59.229+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:30:59.229+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:30:59.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.134 seconds
+[2025-11-24T18:31:29.501+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:31:29.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:31:29.504+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:31:29.503+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:31:29.535+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:31:29.583+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:31:29.582+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:31:29.618+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:31:29.617+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:31:29.647+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.151 seconds
+[2025-11-24T18:31:59.890+0000] {processor.py:161} INFO - Started process (PID=337) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:31:59.891+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:31:59.892+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:31:59.892+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:31:59.916+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:31:59.948+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:31:59.948+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:31:59.976+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:31:59.976+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:32:00.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.113 seconds
+[2025-11-24T18:32:30.232+0000] {processor.py:161} INFO - Started process (PID=359) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:32:30.233+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:32:30.234+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:32:30.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:32:30.256+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:32:30.292+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:32:30.291+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:32:30.322+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:32:30.321+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:32:30.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.116 seconds
+[2025-11-24T18:33:00.581+0000] {processor.py:161} INFO - Started process (PID=381) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:33:00.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:33:00.583+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:33:00.583+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:33:00.607+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:33:00.640+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:33:00.640+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:33:00.670+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:33:00.669+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:33:00.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.116 seconds
+[2025-11-24T18:33:30.933+0000] {processor.py:161} INFO - Started process (PID=403) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:33:30.934+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:33:30.936+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:33:30.935+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:33:30.963+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:33:30.996+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:33:30.996+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:33:31.024+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:33:31.024+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:33:31.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.122 seconds
+[2025-11-24T18:34:01.287+0000] {processor.py:161} INFO - Started process (PID=454) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:34:01.288+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:34:01.288+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:34:01.288+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:34:01.310+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:34:01.345+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:34:01.345+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:34:01.374+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:34:01.374+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:34:01.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.117 seconds
+[2025-11-24T18:34:31.649+0000] {processor.py:161} INFO - Started process (PID=476) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:34:31.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:34:31.651+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:34:31.650+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:34:31.676+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:34:31.710+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:34:31.709+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:34:31.737+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:34:31.737+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:34:31.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.119 seconds
+[2025-11-24T18:35:01.997+0000] {processor.py:161} INFO - Started process (PID=498) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:35:01.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:35:01.999+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:35:01.999+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:35:02.024+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:35:02.057+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:35:02.057+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:35:02.085+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:35:02.085+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:35:02.107+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.114 seconds
+[2025-11-24T18:35:32.339+0000] {processor.py:161} INFO - Started process (PID=520) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:35:32.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:35:32.341+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:35:32.341+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:35:32.365+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:35:32.402+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:35:32.402+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:35:32.429+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:35:32.429+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:35:32.451+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.115 seconds
+[2025-11-24T18:36:02.687+0000] {processor.py:161} INFO - Started process (PID=542) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:36:02.687+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:36:02.688+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:36:02.688+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:36:02.709+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:36:02.741+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:36:02.741+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:36:02.768+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:36:02.767+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:36:02.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.107 seconds
+[2025-11-24T18:36:33.040+0000] {processor.py:161} INFO - Started process (PID=564) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:36:33.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:36:33.042+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:36:33.042+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:36:33.067+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:36:33.101+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:36:33.101+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:36:33.129+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:36:33.129+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:36:33.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.116 seconds
+[2025-11-24T18:37:03.407+0000] {processor.py:161} INFO - Started process (PID=586) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:37:03.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:37:03.409+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:37:03.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:37:03.430+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:37:03.461+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:37:03.461+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:37:03.488+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:37:03.488+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:37:03.513+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.109 seconds
+[2025-11-24T18:37:33.767+0000] {processor.py:161} INFO - Started process (PID=608) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:37:33.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:37:33.769+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:37:33.768+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:37:33.793+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:37:33.829+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:37:33.829+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:37:33.862+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:37:33.862+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-23 00:00:00+00:00, run_after=2025-11-24 00:00:00+00:00
+[2025-11-24T18:37:33.888+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.126 seconds
+[2025-11-24T18:38:04.118+0000] {processor.py:161} INFO - Started process (PID=643) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:38:04.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:38:04.120+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:38:04.120+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:38:04.140+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:38:04.171+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:38:04.171+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:38:04.221+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.106 seconds
+[2025-11-24T18:38:34.478+0000] {processor.py:161} INFO - Started process (PID=665) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:38:34.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:38:34.479+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:38:34.479+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:38:34.503+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:38:34.535+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:38:34.534+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:38:34.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.109 seconds
+[2025-11-24T18:39:04.833+0000] {processor.py:161} INFO - Started process (PID=687) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:39:04.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:39:04.835+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:39:04.835+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:39:04.862+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:39:04.900+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:39:04.900+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:39:04.968+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.140 seconds
+[2025-11-24T18:39:35.250+0000] {processor.py:161} INFO - Started process (PID=702) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:39:35.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:39:35.252+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:39:35.252+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:39:35.273+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:39:35.301+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:39:35.301+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:39:35.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.107 seconds
+[2025-11-24T18:40:05.591+0000] {processor.py:161} INFO - Started process (PID=737) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:40:05.592+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:40:05.593+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:40:05.593+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:40:05.614+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:40:05.645+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:40:05.645+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:40:05.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.110 seconds
+[2025-11-24T18:40:35.947+0000] {processor.py:161} INFO - Started process (PID=759) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:40:35.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:40:35.950+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:40:35.949+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:40:35.978+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:40:36.011+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:40:36.011+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:40:36.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.145 seconds
+[2025-11-24T18:41:06.337+0000] {processor.py:161} INFO - Started process (PID=783) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:41:06.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:41:06.340+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:41:06.339+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:41:06.364+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:41:06.401+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:41:06.400+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:41:06.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.132 seconds
+[2025-11-24T18:41:36.720+0000] {processor.py:161} INFO - Started process (PID=805) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:41:36.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:41:36.722+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:41:36.722+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:41:36.747+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:41:36.781+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:41:36.781+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:41:36.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.115 seconds
+[2025-11-24T18:42:07.077+0000] {processor.py:161} INFO - Started process (PID=830) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:42:07.078+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:42:07.079+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:42:07.078+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:42:07.103+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:42:07.138+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:42:07.138+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:42:07.166+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:42:07.166+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:42:07.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.118 seconds
+[2025-11-24T18:42:37.434+0000] {processor.py:161} INFO - Started process (PID=853) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:42:37.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:42:37.436+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:42:37.435+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:42:37.462+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:42:37.495+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:42:37.495+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:42:37.530+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:42:37.530+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:42:37.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.125 seconds
+[2025-11-24T18:43:07.799+0000] {processor.py:161} INFO - Started process (PID=875) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:43:07.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:43:07.801+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:43:07.800+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:43:07.823+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:43:07.865+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:43:07.865+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:43:07.892+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:43:07.892+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:43:07.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.121 seconds
+[2025-11-24T18:43:38.161+0000] {processor.py:161} INFO - Started process (PID=897) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:43:38.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:43:38.163+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:43:38.163+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:43:38.184+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:43:38.212+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:43:38.212+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:43:38.238+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:43:38.238+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:43:38.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.106 seconds
+[2025-11-24T18:44:08.511+0000] {processor.py:161} INFO - Started process (PID=921) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:44:08.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:44:08.514+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:44:08.513+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:44:08.539+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:44:08.578+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:44:08.578+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:44:08.607+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:44:08.607+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:44:08.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.134 seconds
+[2025-11-24T18:44:38.927+0000] {processor.py:161} INFO - Started process (PID=943) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:44:38.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:44:38.930+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:44:38.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:44:38.955+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:44:38.988+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:44:38.988+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:44:39.016+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:44:39.015+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:44:39.040+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.116 seconds
+[2025-11-24T18:45:09.278+0000] {processor.py:161} INFO - Started process (PID=965) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:45:09.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:45:09.281+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:45:09.280+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:45:09.305+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:45:09.338+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:45:09.338+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:45:09.366+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:45:09.366+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:45:09.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.118 seconds
+[2025-11-24T18:45:39.631+0000] {processor.py:161} INFO - Started process (PID=987) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:45:39.632+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:45:39.633+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:45:39.633+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:45:39.659+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:45:39.697+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:45:39.697+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:45:39.727+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:45:39.727+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:45:39.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.122 seconds
+[2025-11-24T18:46:09.985+0000] {processor.py:161} INFO - Started process (PID=1010) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:46:09.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:46:09.987+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:46:09.987+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:46:10.010+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:46:10.045+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:46:10.045+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:46:10.073+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:46:10.073+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:46:10.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.116 seconds
+[2025-11-24T18:46:40.346+0000] {processor.py:161} INFO - Started process (PID=1032) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:46:40.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:46:40.348+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:46:40.348+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:46:40.376+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:46:40.414+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:46:40.413+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:46:40.446+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:46:40.446+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:46:40.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.131 seconds
+[2025-11-24T18:47:10.726+0000] {processor.py:161} INFO - Started process (PID=1054) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:47:10.727+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:47:10.728+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:47:10.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:47:10.748+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:47:10.777+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:47:10.777+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:47:10.803+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:47:10.803+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:47:10.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.109 seconds
+[2025-11-24T18:47:41.092+0000] {processor.py:161} INFO - Started process (PID=1076) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:47:41.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:47:41.095+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:47:41.094+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:47:41.120+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:47:41.153+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:47:41.153+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:47:41.186+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:47:41.186+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:47:41.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.124 seconds
+[2025-11-24T18:48:11.460+0000] {processor.py:161} INFO - Started process (PID=1091) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:48:11.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:48:11.463+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:48:11.462+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:48:11.491+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:48:11.529+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:48:11.529+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:48:11.558+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:48:11.558+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:48:11.583+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.127 seconds
+[2025-11-24T18:48:19.689+0000] {processor.py:161} INFO - Started process (PID=1110) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:48:19.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:48:19.692+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:48:19.691+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:48:19.722+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:48:19.828+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:48:19.828+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:48:19.853+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:48:19.852+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:48:19.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.193 seconds
+[2025-11-24T18:48:50.124+0000] {processor.py:161} INFO - Started process (PID=1132) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:48:50.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:48:50.127+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:48:50.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:48:50.151+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:48:50.183+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:48:50.183+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:48:50.210+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:48:50.210+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:48:50.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.109 seconds
+[2025-11-24T18:49:20.474+0000] {processor.py:161} INFO - Started process (PID=1154) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:49:20.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:49:20.476+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:49:20.476+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:49:20.495+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:49:20.523+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:49:20.523+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:49:20.547+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:49:20.547+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:49:20.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.096 seconds
+[2025-11-24T18:49:50.853+0000] {processor.py:161} INFO - Started process (PID=1176) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:49:50.854+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:49:50.855+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:49:50.854+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:49:50.874+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:49:50.900+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:49:50.900+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:49:50.923+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:49:50.923+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:49:50.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.093 seconds
+[2025-11-24T18:50:21.198+0000] {processor.py:161} INFO - Started process (PID=1198) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:50:21.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:50:21.201+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:50:21.200+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:50:21.229+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:50:21.264+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:50:21.264+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:50:21.293+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:50:21.292+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:50:21.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.120 seconds
+[2025-11-24T18:50:51.552+0000] {processor.py:161} INFO - Started process (PID=1213) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:50:51.553+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:50:51.554+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:50:51.553+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:50:51.573+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:50:51.604+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:50:51.604+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:50:51.631+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:50:51.631+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:50:51.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.105 seconds
+[2025-11-24T18:51:21.896+0000] {processor.py:161} INFO - Started process (PID=1235) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:51:21.897+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:51:21.898+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:51:21.898+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:51:21.920+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:51:21.951+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:51:21.951+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:51:21.976+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:51:21.976+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:51:21.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.104 seconds
+[2025-11-24T18:51:52.241+0000] {processor.py:161} INFO - Started process (PID=1297) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:51:52.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:51:52.243+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:51:52.243+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:51:52.262+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:51:52.289+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:51:52.289+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:51:52.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.096 seconds
+[2025-11-24T18:52:22.579+0000] {processor.py:161} INFO - Started process (PID=1320) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:52:22.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:52:22.581+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:52:22.581+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:52:22.604+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:52:22.636+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:52:22.635+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:52:22.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.107 seconds
+[2025-11-24T18:52:52.927+0000] {processor.py:161} INFO - Started process (PID=1342) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:52:52.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:52:52.928+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:52:52.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:52:52.948+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:52:52.975+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:52:52.975+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:52:53.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.095 seconds
+[2025-11-24T18:53:23.285+0000] {processor.py:161} INFO - Started process (PID=1364) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:53:23.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:53:23.287+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:53:23.286+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:53:23.306+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:53:23.338+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:53:23.338+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:53:23.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.105 seconds
+[2025-11-24T18:53:53.634+0000] {processor.py:161} INFO - Started process (PID=1388) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:53:53.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:53:53.636+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:53:53.635+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:53:53.658+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:53:53.695+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:53:53.695+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:53:53.725+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:53:53.725+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:53:53.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.117 seconds
+[2025-11-24T18:54:23.968+0000] {processor.py:161} INFO - Started process (PID=1410) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:54:23.969+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:54:23.970+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:54:23.970+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:54:23.990+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:54:24.020+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:54:24.019+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:54:24.047+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:54:24.047+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:54:24.068+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.102 seconds
+[2025-11-24T18:54:54.367+0000] {processor.py:161} INFO - Started process (PID=1432) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:54:54.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:54:54.369+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:54:54.368+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:54:54.389+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:54:54.416+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:54:54.416+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:54:54.442+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:54:54.442+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:54:54.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.102 seconds
+[2025-11-24T18:55:24.719+0000] {processor.py:161} INFO - Started process (PID=1454) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:55:24.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:55:24.722+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:55:24.721+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:55:24.744+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:55:24.778+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:55:24.778+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:55:24.807+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:55:24.807+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:55:24.828+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.112 seconds
+[2025-11-24T18:55:55.060+0000] {processor.py:161} INFO - Started process (PID=1476) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:55:55.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:55:55.063+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:55:55.063+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:55:55.084+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:55:55.119+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:55:55.119+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:55:55.148+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:55:55.148+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:55:55.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.114 seconds
+[2025-11-24T18:56:25.411+0000] {processor.py:161} INFO - Started process (PID=1499) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:56:25.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:56:25.413+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:56:25.413+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:56:25.439+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:56:25.471+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:56:25.471+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:56:25.498+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:56:25.498+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:56:25.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.112 seconds
+[2025-11-24T18:56:55.858+0000] {processor.py:161} INFO - Started process (PID=1522) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:56:55.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:56:55.860+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:56:55.860+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:56:55.883+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:56:55.914+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:56:55.914+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:56:55.941+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:56:55.941+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:56:55.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.106 seconds
+[2025-11-24T18:57:26.316+0000] {processor.py:161} INFO - Started process (PID=1544) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:57:26.318+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:57:26.320+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:57:26.319+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:57:26.345+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:57:26.381+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:57:26.381+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:57:26.414+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:57:26.413+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:57:26.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.128 seconds
+[2025-11-24T18:57:56.692+0000] {processor.py:161} INFO - Started process (PID=1566) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:57:56.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:57:56.694+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:57:56.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:57:56.718+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:57:56.754+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:57:56.753+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:57:56.788+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:57:56.787+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:57:56.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.123 seconds
+[2025-11-24T18:58:27.037+0000] {processor.py:161} INFO - Started process (PID=1588) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:58:27.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:58:27.039+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:58:27.038+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:58:27.060+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:58:27.097+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:58:27.097+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:58:27.138+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:58:27.138+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:58:27.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.136 seconds
+[2025-11-24T18:58:57.397+0000] {processor.py:161} INFO - Started process (PID=1610) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:58:57.399+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:58:57.400+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:58:57.399+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:58:57.425+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:58:57.456+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:58:57.456+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:58:57.484+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:58:57.484+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:58:57.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.113 seconds
+[2025-11-24T18:59:27.751+0000] {processor.py:161} INFO - Started process (PID=1625) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:59:27.752+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:59:27.753+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:59:27.752+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:59:27.773+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:59:27.802+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:59:27.802+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:59:27.827+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:59:27.827+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:59:27.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.100 seconds
+[2025-11-24T18:59:58.234+0000] {processor.py:161} INFO - Started process (PID=1652) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:59:58.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T18:59:58.236+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:59:58.236+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:59:58.258+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T18:59:58.289+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:59:58.289+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T18:59:58.316+0000] {logging_mixin.py:188} INFO - [2025-11-24T18:59:58.315+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T18:59:58.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.104 seconds
+[2025-11-24T19:00:28.722+0000] {processor.py:161} INFO - Started process (PID=1679) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:00:28.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:00:28.724+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:00:28.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:00:28.744+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:00:28.771+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:00:28.770+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:00:28.796+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:00:28.795+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:00:28.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.096 seconds
+[2025-11-24T19:00:59.212+0000] {processor.py:161} INFO - Started process (PID=1706) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:00:59.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:00:59.214+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:00:59.213+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:00:59.241+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:00:59.270+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:00:59.270+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:00:59.298+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:00:59.298+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:00:59.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.110 seconds
+[2025-11-24T19:01:29.824+0000] {processor.py:161} INFO - Started process (PID=1733) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:01:29.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:01:29.829+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:01:29.828+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:01:29.860+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:01:29.912+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:01:29.912+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:01:29.961+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:01:29.960+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:01:29.998+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.178 seconds
+[2025-11-24T19:02:00.191+0000] {processor.py:161} INFO - Started process (PID=1760) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:02:00.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:02:00.193+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:02:00.193+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:02:00.218+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:02:00.250+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:02:00.250+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:02:00.278+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:02:00.277+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:02:00.300+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.112 seconds
+[2025-11-24T19:02:30.700+0000] {processor.py:161} INFO - Started process (PID=1787) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:02:30.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:02:30.701+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:02:30.701+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:02:30.723+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:02:30.750+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:02:30.750+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:02:30.775+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:02:30.775+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:02:30.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.099 seconds
+[2025-11-24T19:03:01.191+0000] {processor.py:161} INFO - Started process (PID=1845) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:03:01.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:03:01.194+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:03:01.194+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:03:01.223+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:03:01.257+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:03:01.257+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:03:01.291+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:03:01.291+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:03:01.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.132 seconds
+[2025-11-24T19:03:31.753+0000] {processor.py:161} INFO - Started process (PID=1895) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:03:31.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:03:31.756+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:03:31.755+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:03:31.788+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:03:31.828+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:03:31.827+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:03:31.865+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:03:31.864+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:03:31.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.142 seconds
+[2025-11-24T19:04:02.345+0000] {processor.py:161} INFO - Started process (PID=1952) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:04:02.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:04:02.348+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:04:02.347+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:04:02.374+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:04:02.406+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:04:02.406+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:04:02.436+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:04:02.436+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:04:02.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.120 seconds
+[2025-11-24T19:04:33.049+0000] {processor.py:161} INFO - Started process (PID=2016) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:04:33.050+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:04:33.051+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:04:33.050+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:04:33.075+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:04:33.110+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:04:33.110+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:04:33.148+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:04:33.148+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:04:33.177+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.131 seconds
+[2025-11-24T19:05:03.620+0000] {processor.py:161} INFO - Started process (PID=2066) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:05:03.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:05:03.623+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:05:03.622+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:05:03.649+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:05:03.682+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:05:03.682+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:05:03.717+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:05:03.717+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:05:03.742+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.125 seconds
+[2025-11-24T19:05:34.179+0000] {processor.py:161} INFO - Started process (PID=2125) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:05:34.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:05:34.182+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:05:34.182+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:05:34.206+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:05:34.239+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:05:34.238+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:05:34.272+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:05:34.272+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:05:34.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.123 seconds
+[2025-11-24T19:06:04.722+0000] {processor.py:161} INFO - Started process (PID=2157) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:06:04.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:06:04.724+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:06:04.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:06:04.746+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:06:04.776+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:06:04.776+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:06:04.804+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:06:04.803+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:06:04.827+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.108 seconds
+[2025-11-24T19:06:35.215+0000] {processor.py:161} INFO - Started process (PID=2184) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:06:35.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:06:35.217+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:06:35.217+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:06:35.237+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:06:35.265+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:06:35.265+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:06:35.291+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:06:35.291+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:06:35.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.101 seconds
+[2025-11-24T19:07:05.712+0000] {processor.py:161} INFO - Started process (PID=2211) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:07:05.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:07:05.713+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:07:05.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:07:05.734+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:07:05.760+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:07:05.760+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:07:05.784+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:07:05.783+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:07:05.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.095 seconds
+[2025-11-24T19:07:36.202+0000] {processor.py:161} INFO - Started process (PID=2238) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:07:36.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:07:36.204+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:07:36.204+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:07:36.229+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:07:36.261+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:07:36.261+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:07:36.288+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:07:36.288+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:07:36.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.112 seconds
+[2025-11-24T19:08:06.692+0000] {processor.py:161} INFO - Started process (PID=2258) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:08:06.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:08:06.694+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:08:06.693+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:08:06.714+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:08:06.740+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:08:06.740+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:08:06.764+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:08:06.764+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:08:06.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.095 seconds
+[2025-11-24T19:08:37.236+0000] {processor.py:161} INFO - Started process (PID=2285) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:08:37.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:08:37.238+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:08:37.238+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:08:37.267+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:08:37.302+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:08:37.302+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:08:37.327+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:08:37.327+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:08:37.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.116 seconds
+[2025-11-24T19:09:07.782+0000] {processor.py:161} INFO - Started process (PID=2312) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:09:07.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:09:07.785+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:09:07.784+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:09:07.830+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:09:07.865+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:09:07.865+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:09:07.891+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:09:07.891+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:09:07.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.134 seconds
+[2025-11-24T19:09:38.199+0000] {processor.py:161} INFO - Started process (PID=2340) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:09:38.200+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:09:38.201+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:09:38.200+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:09:38.220+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:09:38.247+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:09:38.247+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:09:38.273+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:09:38.273+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:09:38.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.097 seconds
+[2025-11-24T19:10:08.674+0000] {processor.py:161} INFO - Started process (PID=2368) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:10:08.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:10:08.676+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:10:08.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:10:08.696+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:10:08.724+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:10:08.724+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:10:08.752+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:10:08.752+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:10:08.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.104 seconds
+[2025-11-24T19:10:39.153+0000] {processor.py:161} INFO - Started process (PID=2395) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:10:39.154+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:10:39.155+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:10:39.155+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:10:39.175+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:10:39.206+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:10:39.206+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:10:39.236+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:10:39.236+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:10:39.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.107 seconds
+[2025-11-24T19:11:09.633+0000] {processor.py:161} INFO - Started process (PID=2422) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:11:09.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:11:09.635+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:11:09.635+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:11:09.654+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:11:09.682+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:11:09.682+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:11:09.708+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:11:09.708+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:11:09.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.097 seconds
+[2025-11-24T19:11:40.101+0000] {processor.py:161} INFO - Started process (PID=2449) to work on /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:11:40.102+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_spark_http_execution.py for tasks to queue
+[2025-11-24T19:11:40.103+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:11:40.103+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:11:40.122+0000] {processor.py:840} INFO - DAG(s) 'etl_spark_http_execution' retrieved from /opt/airflow/dags/etl_spark_http_execution.py
+[2025-11-24T19:11:40.148+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:11:40.147+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-11-24T19:11:40.173+0000] {logging_mixin.py:188} INFO - [2025-11-24T19:11:40.173+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_spark_http_execution to 2025-11-24 00:00:00+00:00, run_after=2025-11-25 00:00:00+00:00
+[2025-11-24T19:11:40.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_spark_http_execution.py took 0.099 seconds

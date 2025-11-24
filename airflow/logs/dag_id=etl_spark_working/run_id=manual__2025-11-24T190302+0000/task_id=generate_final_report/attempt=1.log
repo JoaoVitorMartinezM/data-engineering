@@ -1,0 +1,31 @@
+[2025-11-24T19:05:57.002+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_spark_working.generate_final_report manual__2025-11-24T19:03:02+00:00 [queued]>
+[2025-11-24T19:05:57.013+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_spark_working.generate_final_report manual__2025-11-24T19:03:02+00:00 [queued]>
+[2025-11-24T19:05:57.013+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2025-11-24T19:05:57.028+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): generate_final_report> on 2025-11-24 19:03:02+00:00
+[2025-11-24T19:05:57.033+0000] {standard_task_runner.py:60} INFO - Started process 2146 to run task
+[2025-11-24T19:05:57.036+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'etl_spark_working', 'generate_final_report', 'manual__2025-11-24T19:03:02+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/etl_spark_working_dag.py', '--cfg-path', '/tmp/tmpj8_dedx4']
+[2025-11-24T19:05:57.038+0000] {standard_task_runner.py:88} INFO - Job 43: Subtask generate_final_report
+[2025-11-24T19:05:57.108+0000] {task_command.py:423} INFO - Running <TaskInstance: etl_spark_working.generate_final_report manual__2025-11-24T19:03:02+00:00 [running]> on host 7934b6c65b02
+[2025-11-24T19:05:57.206+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='etl_spark_working' AIRFLOW_CTX_TASK_ID='generate_final_report' AIRFLOW_CTX_EXECUTION_DATE='2025-11-24T19:03:02+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-24T19:03:02+00:00'
+[2025-11-24T19:05:57.207+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-11-24T19:05:57.208+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n    echo "📊 ========== RELATÓRIO FINAL DO PIPELINE =========="\n    echo "📅 Data de Execução: $(date)"\n    echo "🏷️  Pipeline: ETL Cintilografia - Spark & Delta Lake"\n    echo ""\n    echo "✅ CAMADAS PROCESSADAS:"\n    echo "   🥉 Bronze Layer: OK"\n    echo "   🥈 Silver Layer: OK"\n    echo ""\n    echo "📈 ESTATÍSTICAS:"\n    echo "   - Formato: Delta Lake"\n    echo "   - Storage: MinIO (S3-compatible)"\n    echo "   - Engine: Apache Spark 3.5.7"\n    echo ""\n    echo "🎯 STATUS: PIPELINE CONCLUÍDO COM SUCESSO"\n    echo "===================================================="\n    ']
+[2025-11-24T19:05:57.219+0000] {subprocess.py:86} INFO - Output:
+[2025-11-24T19:05:57.221+0000] {subprocess.py:93} INFO - 📊 ========== RELATÓRIO FINAL DO PIPELINE ==========
+[2025-11-24T19:05:57.223+0000] {subprocess.py:93} INFO - 📅 Data de Execução: Mon Nov 24 19:05:57 UTC 2025
+[2025-11-24T19:05:57.224+0000] {subprocess.py:93} INFO - 🏷️  Pipeline: ETL Cintilografia - Spark & Delta Lake
+[2025-11-24T19:05:57.224+0000] {subprocess.py:93} INFO - 
+[2025-11-24T19:05:57.224+0000] {subprocess.py:93} INFO - ✅ CAMADAS PROCESSADAS:
+[2025-11-24T19:05:57.225+0000] {subprocess.py:93} INFO -    🥉 Bronze Layer: OK
+[2025-11-24T19:05:57.225+0000] {subprocess.py:93} INFO -    🥈 Silver Layer: OK
+[2025-11-24T19:05:57.225+0000] {subprocess.py:93} INFO - 
+[2025-11-24T19:05:57.226+0000] {subprocess.py:93} INFO - 📈 ESTATÍSTICAS:
+[2025-11-24T19:05:57.226+0000] {subprocess.py:93} INFO -    - Formato: Delta Lake
+[2025-11-24T19:05:57.227+0000] {subprocess.py:93} INFO -    - Storage: MinIO (S3-compatible)
+[2025-11-24T19:05:57.227+0000] {subprocess.py:93} INFO -    - Engine: Apache Spark 3.5.7
+[2025-11-24T19:05:57.227+0000] {subprocess.py:93} INFO - 
+[2025-11-24T19:05:57.228+0000] {subprocess.py:93} INFO - 🎯 STATUS: PIPELINE CONCLUÍDO COM SUCESSO
+[2025-11-24T19:05:57.228+0000] {subprocess.py:93} INFO - ====================================================
+[2025-11-24T19:05:57.228+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-11-24T19:05:57.258+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=etl_spark_working, task_id=generate_final_report, execution_date=20251124T190302, start_date=20251124T190557, end_date=20251124T190557
+[2025-11-24T19:05:57.289+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-11-24T19:05:57.309+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

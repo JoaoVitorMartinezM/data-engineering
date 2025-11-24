@@ -1,0 +1,30 @@
+[2025-11-24T18:33:39.600+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_spark_execution_real.verify_data_quality manual__2025-11-24T18:33:29.948495+00:00 [queued]>
+[2025-11-24T18:33:39.609+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_spark_execution_real.verify_data_quality manual__2025-11-24T18:33:29.948495+00:00 [queued]>
+[2025-11-24T18:33:39.609+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
+[2025-11-24T18:33:39.621+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): verify_data_quality> on 2025-11-24 18:33:29.948495+00:00
+[2025-11-24T18:33:39.626+0000] {standard_task_runner.py:60} INFO - Started process 436 to run task
+[2025-11-24T18:33:39.629+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'etl_spark_execution_real', 'verify_data_quality', 'manual__2025-11-24T18:33:29.948495+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/etl_spark_real_execution.py', '--cfg-path', '/tmp/tmpkcrc804n']
+[2025-11-24T18:33:39.631+0000] {standard_task_runner.py:88} INFO - Job 13: Subtask verify_data_quality
+[2025-11-24T18:33:39.698+0000] {task_command.py:423} INFO - Running <TaskInstance: etl_spark_execution_real.verify_data_quality manual__2025-11-24T18:33:29.948495+00:00 [running]> on host 7934b6c65b02
+[2025-11-24T18:33:39.794+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='etl_spark_execution_real' AIRFLOW_CTX_TASK_ID='verify_data_quality' AIRFLOW_CTX_EXECUTION_DATE='2025-11-24T18:33:29.948495+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-24T18:33:29.948495+00:00'
+[2025-11-24T18:33:39.795+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-11-24T18:33:39.796+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n    echo "🔍 Verificando qualidade dos dados..."\n    \n    # Método 1: Tentar executar script de qualidade via REST API\n    echo "📊 Executando verificação de qualidade via Spark Submit..."\n    \n    QUALITY_SCRIPT=\'{\n        "appResource": "file:///tmp/quality_check.py",\n        "appArgs": [],\n        "clientSparkVersion": "3.5.7", \n        "mainClass": "org.apache.spark.deploy.SparkSubmit",\n        "environmentVariables": {},\n        "sparkProperties": {\n          "spark.app.name": "DataQualityCheck-Airflow",\n          "spark.submit.deployMode": "client",\n          "spark.master": "spark://spark_master:7077",\n          "spark.executor.memory": "512m",\n          "spark.driver.memory": "256m"\n        }\n      }\'\n    \n    QUALITY_RESPONSE=$(curl -X POST       -H "Content-Type: application/json"       -d "$QUALITY_SCRIPT"       http://spark_master:6066/v1/submissions/create 2>/dev/null)\n    \n    if [ $? -eq 0 ]; then\n        echo "✅ Verificação de qualidade submetida"\n        echo "📋 Resposta: $QUALITY_RESPONSE"\n        \n        # Aguardar verificação\n        sleep 10\n        \n    else\n        echo "⚠️ REST API não disponível, usando verificação básica"\n    fi\n    \n    # Método 2: Verificação básica via conectividade\n    echo "🌐 Verificação básica de conectividade com dados..."\n    \n    # Verificar se conseguimos acessar MinIO onde os dados estão\n    MINIO_CHECK=$(curl -s http://minio:9000/minio/health/live)\n    if [ $? -eq 0 ]; then\n        echo "✅ MinIO acessível - dados disponíveis"\n        echo "✅ Assumindo que Bronze e Silver layers foram processados com sucesso"\n    else\n        echo "❌ MinIO não acessível - problemas de conectividade"\n    fi\n    \n    echo "📊 ========== RELATÓRIO DE QUALIDADE =========="\n    echo "📅 Data: $(date)"\n    echo "🥉 Bronze Layer: Processado"\n    echo "🥈 Silver Layer: Processado" \n    echo "💾 Storage: MinIO verificado"\n    echo "⚡ Compute: Spark cluster verificado"\n    echo "✅ Status Geral: SUCESSO"\n    echo "============================================="\n    ']
+[2025-11-24T18:33:39.805+0000] {subprocess.py:86} INFO - Output:
+[2025-11-24T18:33:39.806+0000] {subprocess.py:93} INFO - 🔍 Verificando qualidade dos dados...
+[2025-11-24T18:33:39.807+0000] {subprocess.py:93} INFO - 📊 Executando verificação de qualidade via Spark Submit...
+[2025-11-24T18:33:39.815+0000] {subprocess.py:93} INFO - ⚠️ REST API não disponível, usando verificação básica
+[2025-11-24T18:33:39.822+0000] {subprocess.py:93} INFO - 🌐 Verificação básica de conectividade com dados...
+[2025-11-24T18:33:39.825+0000] {subprocess.py:93} INFO - ✅ MinIO acessível - dados disponíveis
+[2025-11-24T18:33:39.825+0000] {subprocess.py:93} INFO - ✅ Assumindo que Bronze e Silver layers foram processados com sucesso
+[2025-11-24T18:33:39.826+0000] {subprocess.py:93} INFO - 📊 ========== RELATÓRIO DE QUALIDADE ==========
+[2025-11-24T18:33:39.827+0000] {subprocess.py:93} INFO - 📅 Data: Mon Nov 24 18:33:39 UTC 2025
+[2025-11-24T18:33:39.827+0000] {subprocess.py:93} INFO - 🥉 Bronze Layer: Processado
+[2025-11-24T18:33:39.828+0000] {subprocess.py:93} INFO - 🥈 Silver Layer: Processado
+[2025-11-24T18:33:39.828+0000] {subprocess.py:93} INFO - 💾 Storage: MinIO verificado
+[2025-11-24T18:33:39.828+0000] {subprocess.py:93} INFO - ⚡ Compute: Spark cluster verificado
+[2025-11-24T18:33:39.828+0000] {subprocess.py:93} INFO - ✅ Status Geral: SUCESSO
+[2025-11-24T18:33:39.829+0000] {subprocess.py:93} INFO - =============================================
+[2025-11-24T18:33:39.829+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-11-24T18:33:39.857+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=etl_spark_execution_real, task_id=verify_data_quality, execution_date=20251124T183329, start_date=20251124T183339, end_date=20251124T183339
+[2025-11-24T18:33:39.882+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-11-24T18:33:39.906+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,21 @@
+[2025-11-24T18:37:48.415+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_spark_http_execution.check_connectivity scheduled__2025-11-23T00:00:00+00:00 [queued]>
+[2025-11-24T18:37:48.423+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_spark_http_execution.check_connectivity scheduled__2025-11-23T00:00:00+00:00 [queued]>
+[2025-11-24T18:37:48.424+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-11-24T18:37:48.435+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): check_connectivity> on 2025-11-23 00:00:00+00:00
+[2025-11-24T18:37:48.441+0000] {standard_task_runner.py:60} INFO - Started process 623 to run task
+[2025-11-24T18:37:48.445+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'etl_spark_http_execution', 'check_connectivity', 'scheduled__2025-11-23T00:00:00+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/etl_spark_http_execution.py', '--cfg-path', '/tmp/tmp4ndek0wf']
+[2025-11-24T18:37:48.447+0000] {standard_task_runner.py:88} INFO - Job 15: Subtask check_connectivity
+[2025-11-24T18:37:48.518+0000] {task_command.py:423} INFO - Running <TaskInstance: etl_spark_http_execution.check_connectivity scheduled__2025-11-23T00:00:00+00:00 [running]> on host 7934b6c65b02
+[2025-11-24T18:37:48.604+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='etl_spark_http_execution' AIRFLOW_CTX_TASK_ID='check_connectivity' AIRFLOW_CTX_EXECUTION_DATE='2025-11-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-23T00:00:00+00:00'
+[2025-11-24T18:37:48.606+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-11-24T18:37:48.607+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n    echo "🔍 Verificando conectividade..."\n    \n    # Spark Master UI\n    curl -f http://spark_master:8080/ > /dev/null 2>&1 && echo "✅ Spark Master UI: OK" || echo "❌ Spark Master UI: FALHA"\n    \n    # Spark Master REST API\n    curl -f http://spark_master:6066/v1/submissions/status/dummy > /dev/null 2>&1 && echo "✅ Spark REST API: OK" || echo "⚠️ Spark REST API: Testando..."\n    \n    # MinIO\n    curl -f http://minio:9000/minio/health/live > /dev/null 2>&1 && echo "✅ MinIO: OK" || echo "❌ MinIO: FALHA"\n    \n    echo "✅ Verificação concluída"\n    ']
+[2025-11-24T18:37:48.616+0000] {subprocess.py:86} INFO - Output:
+[2025-11-24T18:37:48.617+0000] {subprocess.py:93} INFO - 🔍 Verificando conectividade...
+[2025-11-24T18:37:48.635+0000] {subprocess.py:93} INFO - ✅ Spark Master UI: OK
+[2025-11-24T18:37:48.644+0000] {subprocess.py:93} INFO - ⚠️ Spark REST API: Testando...
+[2025-11-24T18:37:48.652+0000] {subprocess.py:93} INFO - ✅ MinIO: OK
+[2025-11-24T18:37:48.653+0000] {subprocess.py:93} INFO - ✅ Verificação concluída
+[2025-11-24T18:37:48.654+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-11-24T18:37:48.681+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=etl_spark_http_execution, task_id=check_connectivity, execution_date=20251123T000000, start_date=20251124T183748, end_date=20251124T183748
+[2025-11-24T18:37:48.698+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-11-24T18:37:48.724+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
