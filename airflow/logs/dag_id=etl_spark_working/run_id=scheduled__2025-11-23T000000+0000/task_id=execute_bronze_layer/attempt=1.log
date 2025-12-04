@@ -1,118 +1,0 @@
-[2025-11-24T19:02:54.920+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_spark_working.execute_bronze_layer scheduled__2025-11-23T00:00:00+00:00 [queued]>
-[2025-11-24T19:02:54.928+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_spark_working.execute_bronze_layer scheduled__2025-11-23T00:00:00+00:00 [queued]>
-[2025-11-24T19:02:54.929+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
-[2025-11-24T19:02:54.940+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): execute_bronze_layer> on 2025-11-23 00:00:00+00:00
-[2025-11-24T19:02:54.944+0000] {standard_task_runner.py:60} INFO - Started process 1834 to run task
-[2025-11-24T19:02:54.947+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'etl_spark_working', 'execute_bronze_layer', 'scheduled__2025-11-23T00:00:00+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/etl_spark_working_dag.py', '--cfg-path', '/tmp/tmpirb4lbj0']
-[2025-11-24T19:02:54.949+0000] {standard_task_runner.py:88} INFO - Job 31: Subtask execute_bronze_layer
-[2025-11-24T19:02:55.011+0000] {task_command.py:423} INFO - Running <TaskInstance: etl_spark_working.execute_bronze_layer scheduled__2025-11-23T00:00:00+00:00 [running]> on host 7934b6c65b02
-[2025-11-24T19:02:55.099+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='etl_spark_working' AIRFLOW_CTX_TASK_ID='execute_bronze_layer' AIRFLOW_CTX_EXECUTION_DATE='2025-11-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-23T00:00:00+00:00'
-[2025-11-24T19:02:55.100+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
-[2025-11-24T19:02:55.102+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n    echo "🥉 ========== EXECUTANDO BRONZE LAYER =========="\n    echo "📅 Data: $(date)"\n    echo "🔧 Executor: Docker Exec"\n    \n    # Executar script via Docker\n    if docker exec spark_master python3 /opt/spark/work-dir/bronze_script.py; then\n        echo "✅ Bronze Layer executado com sucesso!"\n        \n        # Aguardar para garantir que dados foram escritos\n        sleep 5\n        \n        echo "📊 Verificando dados gerados..."\n        echo "==============================================="\n    else\n        echo "❌ ERRO: Falha na execução do Bronze Layer"\n        exit 1\n    fi\n    ']
-[2025-11-24T19:02:55.110+0000] {subprocess.py:86} INFO - Output:
-[2025-11-24T19:02:55.112+0000] {subprocess.py:93} INFO - 🥉 ========== EXECUTANDO BRONZE LAYER ==========
-[2025-11-24T19:02:55.115+0000] {subprocess.py:93} INFO - 📅 Data: Mon Nov 24 19:02:55 UTC 2025
-[2025-11-24T19:02:55.115+0000] {subprocess.py:93} INFO - 🔧 Executor: Docker Exec
-[2025-11-24T19:02:57.182+0000] {subprocess.py:93} INFO - Setting default log level to "WARN".
-[2025-11-24T19:02:57.183+0000] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-[2025-11-24T19:02:57.401+0000] {subprocess.py:93} INFO - 25/11/24 19:02:57 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-[2025-11-24T19:03:05.660+0000] {subprocess.py:93} INFO - 25/11/24 19:03:05 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
-[2025-11-24T19:03:05.822+0000] {subprocess.py:93} INFO - 25/11/24 19:03:05 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
-[2025-11-24T19:03:14.417+0000] {subprocess.py:93} INFO - [Stage 8:>                                                         (0 + 8) / 50][Stage 8:=========>                                                (8 + 8) / 50][Stage 8:==============>                                          (13 + 8) / 50][Stage 8:===================>                                     (17 + 9) / 50][Stage 8:=============================>                           (26 + 8) / 50][Stage 8:=========================================>               (36 + 8) / 50][Stage 8:=================================================>       (43 + 7) / 50]                                                                                [Stage 12:>                                                         (0 + 1) / 1]25/11/24 19:03:14 WARN CSVHeaderChecker: CSV header does not conform to the schema.
-[2025-11-24T19:03:14.418+0000] {subprocess.py:93} INFO -  Header: , ID PACIENTE, DATA, HORÁRIO CHEGADA, DATA 2, HORÁRIO CHEGADA 2, SEXO, IDADE, PESO (kg), ALTURA (m), IMC, ETAPA, CAFEÍNA, DIETA NAS ÚLTIMAS 24 H, ATIVIDADE (mCi) Repouso, HORA INJEÇÃO Repouso, HORA IMAGEM Repouso, ATIVIDADE (mCi) Esforço, HORA INJEÇÃO Esforço, HORA IMAGEM Esforço, REPETIU, ETAPA REPETIÇÃO, MOTIVO DE REPETIÇÃO, PREPARO REPETIÇÃO, HORA REPETIÇÃO Repouso, HORA REPETIÇÃO Estress, Nº REPETIÇÃO
-[2025-11-24T19:03:14.422+0000] {subprocess.py:93} INFO -  Schema: _c0, ID PACIENTE, DATA, HORÁRIO CHEGADA, DATA 2, HORÁRIO CHEGADA 2, SEXO, IDADE, PESO (kg), ALTURA (m), IMC, ETAPA, CAFEÍNA, DIETA NAS ÚLTIMAS 24 H, ATIVIDADE (mCi) Repouso, HORA INJEÇÃO Repouso, HORA IMAGEM Repouso, ATIVIDADE (mCi) Esforço, HORA INJEÇÃO Esforço, HORA IMAGEM Esforço, REPETIU, ETAPA REPETIÇÃO, MOTIVO DE REPETIÇÃO, PREPARO REPETIÇÃO, HORA REPETIÇÃO Repouso, HORA REPETIÇÃO Estress, Nº REPETIÇÃO
-[2025-11-24T19:03:14.424+0000] {subprocess.py:93} INFO - Expected: _c0 but found:
-[2025-11-24T19:03:14.425+0000] {subprocess.py:93} INFO - CSV file: file:///tmp/dados_cintilografia.csv
-[2025-11-24T19:03:20.040+0000] {subprocess.py:93} INFO -                                                                                 [Stage 19:==========================>                             (24 + 8) / 50][Stage 19:=======================================>                (35 + 8) / 50]
-[2025-11-24T19:03:20.041+0000] {subprocess.py:93} INFO - --- 1. BAIXANDO DADOS DA URL DO GITHUB ---
-[2025-11-24T19:03:20.041+0000] {subprocess.py:93} INFO - Arquivo baixado com sucesso para: /tmp/dados_cintilografia.csv
-[2025-11-24T19:03:20.042+0000] {subprocess.py:93} INFO - 
-[2025-11-24T19:03:20.043+0000] {subprocess.py:93} INFO - --- 2. LENDO E PROCESSANDO DADOS ---
-[2025-11-24T19:03:20.043+0000] {subprocess.py:93} INFO - Total de registros lidos: 106
-[2025-11-24T19:03:20.044+0000] {subprocess.py:93} INFO - Schema dos dados:
-[2025-11-24T19:03:20.044+0000] {subprocess.py:93} INFO - root
-[2025-11-24T19:03:20.044+0000] {subprocess.py:93} INFO -  |-- _c0: string (nullable = true)
-[2025-11-24T19:03:20.045+0000] {subprocess.py:93} INFO -  |-- ID PACIENTE: string (nullable = true)
-[2025-11-24T19:03:20.045+0000] {subprocess.py:93} INFO -  |-- DATA: string (nullable = true)
-[2025-11-24T19:03:20.045+0000] {subprocess.py:93} INFO -  |-- HORÁRIO CHEGADA: string (nullable = true)
-[2025-11-24T19:03:20.046+0000] {subprocess.py:93} INFO -  |-- DATA 2: string (nullable = true)
-[2025-11-24T19:03:20.046+0000] {subprocess.py:93} INFO -  |-- HORÁRIO CHEGADA 2: timestamp (nullable = true)
-[2025-11-24T19:03:20.046+0000] {subprocess.py:93} INFO -  |-- SEXO: string (nullable = true)
-[2025-11-24T19:03:20.046+0000] {subprocess.py:93} INFO -  |-- IDADE: integer (nullable = true)
-[2025-11-24T19:03:20.047+0000] {subprocess.py:93} INFO -  |-- PESO (kg): integer (nullable = true)
-[2025-11-24T19:03:20.047+0000] {subprocess.py:93} INFO -  |-- ALTURA (m): double (nullable = true)
-[2025-11-24T19:03:20.048+0000] {subprocess.py:93} INFO -  |-- IMC: double (nullable = true)
-[2025-11-24T19:03:20.048+0000] {subprocess.py:93} INFO -  |-- ETAPA: string (nullable = true)
-[2025-11-24T19:03:20.048+0000] {subprocess.py:93} INFO -  |-- CAFEÍNA: boolean (nullable = true)
-[2025-11-24T19:03:20.048+0000] {subprocess.py:93} INFO -  |-- DIETA NAS ÚLTIMAS 24 H: string (nullable = true)
-[2025-11-24T19:03:20.049+0000] {subprocess.py:93} INFO -  |-- ATIVIDADE (mCi) Repouso: double (nullable = true)
-[2025-11-24T19:03:20.049+0000] {subprocess.py:93} INFO -  |-- HORA INJEÇÃO Repouso: timestamp (nullable = true)
-[2025-11-24T19:03:20.049+0000] {subprocess.py:93} INFO -  |-- HORA IMAGEM Repouso: timestamp (nullable = true)
-[2025-11-24T19:03:20.050+0000] {subprocess.py:93} INFO -  |-- ATIVIDADE (mCi) Esforço: double (nullable = true)
-[2025-11-24T19:03:20.050+0000] {subprocess.py:93} INFO -  |-- HORA INJEÇÃO Esforço: timestamp (nullable = true)
-[2025-11-24T19:03:20.050+0000] {subprocess.py:93} INFO -  |-- HORA IMAGEM Esforço: timestamp (nullable = true)
-[2025-11-24T19:03:20.050+0000] {subprocess.py:93} INFO -  |-- REPETIU: boolean (nullable = true)
-[2025-11-24T19:03:20.051+0000] {subprocess.py:93} INFO -  |-- ETAPA REPETIÇÃO: string (nullable = true)
-[2025-11-24T19:03:20.051+0000] {subprocess.py:93} INFO -  |-- MOTIVO DE REPETIÇÃO: string (nullable = true)
-[2025-11-24T19:03:20.051+0000] {subprocess.py:93} INFO -  |-- PREPARO REPETIÇÃO: string (nullable = true)
-[2025-11-24T19:03:20.051+0000] {subprocess.py:93} INFO -  |-- HORA REPETIÇÃO Repouso: timestamp (nullable = true)
-[2025-11-24T19:03:20.052+0000] {subprocess.py:93} INFO -  |-- HORA REPETIÇÃO Estress: timestamp (nullable = true)
-[2025-11-24T19:03:20.052+0000] {subprocess.py:93} INFO -  |-- Nº REPETIÇÃO: integer (nullable = true)
-[2025-11-24T19:03:20.053+0000] {subprocess.py:93} INFO - 
-[2025-11-24T19:03:20.053+0000] {subprocess.py:93} INFO - 
-[2025-11-24T19:03:20.054+0000] {subprocess.py:93} INFO - --- 3. AJUSTANDO NOMES DAS COLUNAS ---
-[2025-11-24T19:03:20.054+0000] {subprocess.py:93} INFO - Nomes de colunas ajustados:
-[2025-11-24T19:03:20.055+0000] {subprocess.py:93} INFO - root
-[2025-11-24T19:03:20.055+0000] {subprocess.py:93} INFO -  |-- _c0: string (nullable = true)
-[2025-11-24T19:03:20.055+0000] {subprocess.py:93} INFO -  |-- ID_PACIENTE: string (nullable = true)
-[2025-11-24T19:03:20.055+0000] {subprocess.py:93} INFO -  |-- DATA: string (nullable = true)
-[2025-11-24T19:03:20.056+0000] {subprocess.py:93} INFO -  |-- HORÁRIO_CHEGADA: string (nullable = true)
-[2025-11-24T19:03:20.056+0000] {subprocess.py:93} INFO -  |-- DATA_2: string (nullable = true)
-[2025-11-24T19:03:20.056+0000] {subprocess.py:93} INFO -  |-- HORÁRIO_CHEGADA_2: timestamp (nullable = true)
-[2025-11-24T19:03:20.056+0000] {subprocess.py:93} INFO -  |-- SEXO: string (nullable = true)
-[2025-11-24T19:03:20.056+0000] {subprocess.py:93} INFO -  |-- IDADE: integer (nullable = true)
-[2025-11-24T19:03:20.057+0000] {subprocess.py:93} INFO -  |-- PESO_kg: integer (nullable = true)
-[2025-11-24T19:03:20.057+0000] {subprocess.py:93} INFO -  |-- ALTURA_m: double (nullable = true)
-[2025-11-24T19:03:20.057+0000] {subprocess.py:93} INFO -  |-- IMC: double (nullable = true)
-[2025-11-24T19:03:20.058+0000] {subprocess.py:93} INFO -  |-- ETAPA: string (nullable = true)
-[2025-11-24T19:03:20.058+0000] {subprocess.py:93} INFO -  |-- CAFEÍNA: boolean (nullable = true)
-[2025-11-24T19:03:20.058+0000] {subprocess.py:93} INFO -  |-- DIETA_NAS_ÚLTIMAS_24_H: string (nullable = true)
-[2025-11-24T19:03:20.059+0000] {subprocess.py:93} INFO -  |-- ATIVIDADE_mCi_Repouso: double (nullable = true)
-[2025-11-24T19:03:20.059+0000] {subprocess.py:93} INFO -  |-- HORA_INJEÇÃO_Repouso: timestamp (nullable = true)
-[2025-11-24T19:03:20.059+0000] {subprocess.py:93} INFO -  |-- HORA_IMAGEM_Repouso: timestamp (nullable = true)
-[2025-11-24T19:03:20.060+0000] {subprocess.py:93} INFO -  |-- ATIVIDADE_mCi_Esforço: double (nullable = true)
-[2025-11-24T19:03:20.060+0000] {subprocess.py:93} INFO -  |-- HORA_INJEÇÃO_Esforço: timestamp (nullable = true)
-[2025-11-24T19:03:20.060+0000] {subprocess.py:93} INFO -  |-- HORA_IMAGEM_Esforço: timestamp (nullable = true)
-[2025-11-24T19:03:20.061+0000] {subprocess.py:93} INFO -  |-- REPETIU: boolean (nullable = true)
-[2025-11-24T19:03:20.061+0000] {subprocess.py:93} INFO -  |-- ETAPA_REPETIÇÃO: string (nullable = true)
-[2025-11-24T19:03:20.061+0000] {subprocess.py:93} INFO -  |-- MOTIVO_DE_REPETIÇÃO: string (nullable = true)
-[2025-11-24T19:03:20.062+0000] {subprocess.py:93} INFO -  |-- PREPARO_REPETIÇÃO: string (nullable = true)
-[2025-11-24T19:03:20.062+0000] {subprocess.py:93} INFO -  |-- HORA_REPETIÇÃO_Repouso: timestamp (nullable = true)
-[2025-11-24T19:03:20.062+0000] {subprocess.py:93} INFO -  |-- HORA_REPETIÇÃO_Estress: timestamp (nullable = true)
-[2025-11-24T19:03:20.062+0000] {subprocess.py:93} INFO -  |-- N_num_REPETIÇÃO: integer (nullable = true)
-[2025-11-24T19:03:20.063+0000] {subprocess.py:93} INFO - 
-[2025-11-24T19:03:20.063+0000] {subprocess.py:93} INFO - 
-[2025-11-24T19:03:20.063+0000] {subprocess.py:93} INFO - --- 4. SALVANDO NO BRONZE LAYER ---
-[2025-11-24T19:03:20.064+0000] {subprocess.py:93} INFO - 
-[2025-11-24T19:03:20.064+0000] {subprocess.py:93} INFO - --- 5. VERIFICANDO DADOS SALVOS NO BRONZE ---
-[2025-11-24T19:03:20.064+0000] {subprocess.py:93} INFO - +------+-------------+-------------+---------------------+-----------------+-------------------+---------+-----+-------+--------+-----+----------+-------+---------------------------------------------------------------------+---------------------+--------------------+-------------------+---------------------+--------------------+-------------------+-------+---------------+-------------------+-----------------+----------------------+----------------------+---------------+
-[2025-11-24T19:03:20.065+0000] {subprocess.py:93} INFO - |_c0   |ID_PACIENTE  |DATA         |HORÁRIO_CHEGADA      |DATA_2           |HORÁRIO_CHEGADA_2  |SEXO     |IDADE|PESO_kg|ALTURA_m|IMC  |ETAPA     |CAFEÍNA|DIETA_NAS_ÚLTIMAS_24_H                                               |ATIVIDADE_mCi_Repouso|HORA_INJEÇÃO_Repouso|HORA_IMAGEM_Repouso|ATIVIDADE_mCi_Esforço|HORA_INJEÇÃO_Esforço|HORA_IMAGEM_Esforço|REPETIU|ETAPA_REPETIÇÃO|MOTIVO_DE_REPETIÇÃO|PREPARO_REPETIÇÃO|HORA_REPETIÇÃO_Repouso|HORA_REPETIÇÃO_Estress|N_num_REPETIÇÃO|
-[2025-11-24T19:03:20.065+0000] {subprocess.py:93} INFO - +------+-------------+-------------+---------------------+-----------------+-------------------+---------+-----+-------+--------+-----+----------+-------+---------------------------------------------------------------------+---------------------+--------------------+-------------------+---------------------+--------------------+-------------------+-------+---------------+-------------------+-----------------+----------------------+----------------------+---------------+
-[2025-11-24T19:03:20.065+0000] {subprocess.py:93} INFO - |TOTAL"|DELTA Repouso|DELTA Esforço|TEMPO TOTAL ATIVIDADE|TEMPO PERMANENCIA|NULL               |NULL     |NULL |NULL   |NULL    |NULL |NULL      |NULL   |NULL                                                                 |NULL                 |NULL                |NULL               |NULL                 |NULL                |NULL               |NULL   |NULL           |NULL               |NULL             |NULL                  |NULL                  |NULL           |
-[2025-11-24T19:03:20.066+0000] {subprocess.py:93} INFO - |0     |235310       |2025-03-03   |2025-11-22 11:39:00  |2025-03-06       |2025-11-22 12:19:00|Masculino|35   |90     |1.69    |31.51|Incompleta|false  |Pães, Carne Vermelha, Leite/Queijo                                   |18.0                 |2025-11-22 12:40:00 |2025-11-22 13:45:00|18.0                 |2025-11-22 12:10:00 |2025-11-22 13:04:00|false  |NULL           |NULL               |NULL             |NULL                  |NULL                  |0              |
-[2025-11-24T19:03:20.066+0000] {subprocess.py:93} INFO - |1     |235301       |2025-03-05   |2025-11-22 08:04:00  |2025-03-06       |2025-11-22 08:19:00|Masculino|62   |83     |1.83    |24.78|Incompleta|false  |Biscoitos, Ovos, Leite/Queijo                                        |15.0                 |2025-11-22 08:20:00 |2025-11-22 09:44:00|15.0                 |2025-11-22 08:50:00 |2025-11-22 09:40:00|false  |NULL           |NULL               |NULL             |NULL                  |NULL                  |0              |
-[2025-11-24T19:03:20.066+0000] {subprocess.py:93} INFO - |2     |223862       |2025-03-05   |2025-11-22 14:03:00  |2025-03-06       |2025-11-22 07:30:00|Feminino |71   |68     |1.61    |25.03|Incompleta|false  |Pães, Carne Vermelha, Aves, Azeite de Oliva, Frituras                |15.0                 |2025-11-22 14:40:00 |2025-11-22 15:44:00|16.0                 |2025-11-22 08:30:00 |2025-11-22 09:21:00|false  |NULL           |NULL               |NULL             |NULL                  |NULL                  |0              |
-[2025-11-24T19:03:20.067+0000] {subprocess.py:93} INFO - |3     |6549         |2025-03-05   |2025-11-22 12:30:00  |2025-03-06       |2025-11-22 09:18:00|Masculino|74   |85     |1.7     |29.41|Incompleta|false  |Pães, Massas, Carne Vermelha, Leite/Queijo, Azeite de Oliva, Frituras|16.0                 |2025-11-22 13:12:00 |2025-11-22 14:14:00|16.0                 |2025-11-22 09:15:00 |2025-11-22 10:03:00|false  |NULL           |NULL               |NULL             |NULL                  |NULL                  |0              |
-[2025-11-24T19:03:20.067+0000] {subprocess.py:93} INFO - +------+-------------+-------------+---------------------+-----------------+-------------------+---------+-----+-------+--------+-----+----------+-------+---------------------------------------------------------------------+---------------------+--------------------+-------------------+---------------------+--------------------+-------------------+-------+---------------+-------------------+-----------------+----------------------+----------------------+---------------+
-[2025-11-24T19:03:20.067+0000] {subprocess.py:93} INFO - only showing top 5 rows
-[2025-11-24T19:03:20.068+0000] {subprocess.py:93} INFO - 
-[2025-11-24T19:03:20.068+0000] {subprocess.py:93} INFO - Total de registros no bronze: 106
-[2025-11-24T19:03:20.068+0000] {subprocess.py:93} INFO - 
-[2025-11-24T19:03:20.069+0000] {subprocess.py:93} INFO - ✅ Dados carregados no bronze layer com sucesso!
-[2025-11-24T19:03:20.476+0000] {subprocess.py:93} INFO - ✅ Bronze Layer executado com sucesso!
-[2025-11-24T19:03:25.479+0000] {subprocess.py:93} INFO - 📊 Verificando dados gerados...
-[2025-11-24T19:03:25.479+0000] {subprocess.py:93} INFO - ===============================================
-[2025-11-24T19:03:25.480+0000] {subprocess.py:97} INFO - Command exited with return code 0
-[2025-11-24T19:03:25.512+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=etl_spark_working, task_id=execute_bronze_layer, execution_date=20251123T000000, start_date=20251124T190254, end_date=20251124T190325
-[2025-11-24T19:03:25.548+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
-[2025-11-24T19:03:25.579+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

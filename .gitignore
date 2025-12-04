@@ -1,2 +1,4 @@
 docker-volume/
 datalake/
+airflow/logs/
+__pycache__/

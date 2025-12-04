@@ -1,37 +1,0 @@
-[2025-11-24T19:05:32.804+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_spark_working.run_quality_checks manual__2025-11-24T19:03:02+00:00 [queued]>
-[2025-11-24T19:05:32.812+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_spark_working.run_quality_checks manual__2025-11-24T19:03:02+00:00 [queued]>
-[2025-11-24T19:05:32.813+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 3
-[2025-11-24T19:05:32.825+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): run_quality_checks> on 2025-11-24 19:03:02+00:00
-[2025-11-24T19:05:32.829+0000] {standard_task_runner.py:60} INFO - Started process 2105 to run task
-[2025-11-24T19:05:32.832+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'etl_spark_working', 'run_quality_checks', 'manual__2025-11-24T19:03:02+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/etl_spark_working_dag.py', '--cfg-path', '/tmp/tmppvlilhfk']
-[2025-11-24T19:05:32.836+0000] {standard_task_runner.py:88} INFO - Job 42: Subtask run_quality_checks
-[2025-11-24T19:05:32.904+0000] {task_command.py:423} INFO - Running <TaskInstance: etl_spark_working.run_quality_checks manual__2025-11-24T19:03:02+00:00 [running]> on host 7934b6c65b02
-[2025-11-24T19:05:32.999+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='data-engineer' AIRFLOW_CTX_DAG_ID='etl_spark_working' AIRFLOW_CTX_TASK_ID='run_quality_checks' AIRFLOW_CTX_EXECUTION_DATE='2025-11-24T19:03:02+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-24T19:03:02+00:00'
-[2025-11-24T19:05:33.000+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
-[2025-11-24T19:05:33.002+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n    echo "🎯 ========== VERIFICAÇÃO DE QUALIDADE =========="\n    echo "📅 Data: $(date)"\n    \n    # Verificar se o script de qualidade existe\n    if docker exec spark_master ls /opt/spark/work-dir/quality_check.py > /dev/null 2>&1; then\n        echo "✅ Script de qualidade encontrado"\n        \n        # Tentar executar\n        if docker exec spark_master python3 /opt/spark/work-dir/quality_check.py 2>&1; then\n            echo "✅ Verificações de qualidade concluídas"\n        else\n            echo "⚠️  Verificações de qualidade com avisos (continuando...)"\n        fi\n    else\n        echo "⚠️  Script de qualidade não encontrado (pulando...)"\n    fi\n    \n    echo "=============================================="\n    ']
-[2025-11-24T19:05:33.011+0000] {subprocess.py:86} INFO - Output:
-[2025-11-24T19:05:33.012+0000] {subprocess.py:93} INFO - 🎯 ========== VERIFICAÇÃO DE QUALIDADE ==========
-[2025-11-24T19:05:33.014+0000] {subprocess.py:93} INFO - 📅 Data: Mon Nov 24 19:05:33 UTC 2025
-[2025-11-24T19:05:33.106+0000] {subprocess.py:93} INFO - ✅ Script de qualidade encontrado
-[2025-11-24T19:05:35.105+0000] {subprocess.py:93} INFO - Setting default log level to "WARN".
-[2025-11-24T19:05:35.108+0000] {subprocess.py:93} INFO - To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
-[2025-11-24T19:05:35.284+0000] {subprocess.py:93} INFO - 25/11/24 19:05:35 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-[2025-11-24T19:05:38.011+0000] {subprocess.py:93} INFO - 25/11/24 19:05:38 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
-[2025-11-24T19:05:44.898+0000] {subprocess.py:93} INFO - [Stage 0:>                                                          (0 + 3) / 3]                                                                                25/11/24 19:05:44 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
-[2025-11-24T19:05:55.932+0000] {subprocess.py:93} INFO - [Stage 3:>                                                         (0 + 8) / 50][Stage 3:=>                                                        (1 + 8) / 50][Stage 3:=========>                                                (8 + 8) / 50][Stage 3:==================>                                      (16 + 8) / 50][Stage 3:======================>                                  (20 + 8) / 50][Stage 3:==============================>                          (27 + 7) / 50][Stage 3:=======================================>                 (35 + 8) / 50][Stage 3:===============================================>         (42 + 8) / 50]                                                                                [Stage 10:==============================>                         (27 + 8) / 50][Stage 10:============================================>           (40 + 8) / 50]                                                                                [Stage 15:========================>                               (22 + 8) / 50][Stage 15:==================================================>     (45 + 5) / 50]                                                                                [Stage 21:>                                                         (0 + 1) / 1]                                                                                ============================================================
-[2025-11-24T19:05:55.933+0000] {subprocess.py:93} INFO - 🏗️  VERIFICAÇÃO COMPLETA DOS LAYERS
-[2025-11-24T19:05:55.933+0000] {subprocess.py:93} INFO - ============================================================
-[2025-11-24T19:05:55.934+0000] {subprocess.py:93} INFO - 🥉 Bronze Layer: 106 registros
-[2025-11-24T19:05:55.934+0000] {subprocess.py:93} INFO - 🥈 Silver Layer: 12 registros
-[2025-11-24T19:05:55.935+0000] {subprocess.py:93} INFO - 
-[2025-11-24T19:05:55.935+0000] {subprocess.py:93} INFO - 📊 ESTATÍSTICAS:
-[2025-11-24T19:05:55.935+0000] {subprocess.py:93} INFO -    Total pacientes únicos (Bronze): 106
-[2025-11-24T19:05:55.936+0000] {subprocess.py:93} INFO -    Total pacientes únicos (Silver): 12
-[2025-11-24T19:05:55.936+0000] {subprocess.py:93} INFO - 
-[2025-11-24T19:05:55.937+0000] {subprocess.py:93} INFO - ✅ PIPELINE BRONZE → SILVER FUNCIONANDO!
-[2025-11-24T19:05:56.368+0000] {subprocess.py:93} INFO - ✅ Verificações de qualidade concluídas
-[2025-11-24T19:05:56.369+0000] {subprocess.py:93} INFO - ==============================================
-[2025-11-24T19:05:56.370+0000] {subprocess.py:97} INFO - Command exited with return code 0
-[2025-11-24T19:05:56.400+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=etl_spark_working, task_id=run_quality_checks, execution_date=20251124T190302, start_date=20251124T190532, end_date=20251124T190556
-[2025-11-24T19:05:56.443+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
-[2025-11-24T19:05:56.476+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
